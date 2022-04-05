@@ -1,0 +1,5329 @@
+{
+  "LineSpacing": 50,
+  "Spacing": -2.0,
+  "DefaultCharacter": "*",
+  "Characters": [
+    " ",
+    "!",
+    "\"",
+    "#",
+    "$",
+    "%",
+    "&",
+    "'",
+    "(",
+    ")",
+    "*",
+    "+",
+    ",",
+    "-",
+    ".",
+    "/",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    ":",
+    ";",
+    "<",
+    "=",
+    ">",
+    "?",
+    "@",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "[",
+    "\\",
+    "]",
+    "^",
+    "_",
+    "`",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "{",
+    "|",
+    "}",
+    "~",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "\u0085",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    " ",
+    "¡",
+    "¢",
+    "£",
+    "¤",
+    "¥",
+    "¦",
+    "§",
+    "¨",
+    "©",
+    "ª",
+    "«",
+    "¬",
+    "­",
+    "®",
+    "¯",
+    "°",
+    "±",
+    "²",
+    "³",
+    "´",
+    "µ",
+    "¶",
+    "·",
+    "¸",
+    "¹",
+    "º",
+    "»",
+    "¼",
+    "½",
+    "¾",
+    "¿",
+    "À",
+    "Á",
+    "Â",
+    "Ã",
+    "Ä",
+    "Å",
+    "Æ",
+    "Ç",
+    "È",
+    "É",
+    "Ê",
+    "Ë",
+    "Ì",
+    "Í",
+    "Î",
+    "Ï",
+    "Ð",
+    "Ñ",
+    "Ò",
+    "Ó",
+    "Ô",
+    "Õ",
+    "Ö",
+    "×",
+    "Ø",
+    "Ù",
+    "Ú",
+    "Û",
+    "Ü",
+    "Ý",
+    "Þ",
+    "ß",
+    "à",
+    "á",
+    "â",
+    "ã",
+    "ä",
+    "å",
+    "æ",
+    "ç",
+    "è",
+    "é",
+    "ê",
+    "ë",
+    "ì",
+    "í",
+    "î",
+    "ï",
+    "ð",
+    "ñ",
+    "ò",
+    "ó",
+    "ô",
+    "õ",
+    "ö",
+    "÷",
+    "ø",
+    "ù",
+    "ú",
+    "û",
+    "ü",
+    "ý",
+    "þ",
+    "ÿ",
+    "Ÿ",
+    "—",
+    "―",
+    "‖",
+    "‗",
+    "‘",
+    "’",
+    "‚",
+    "‛",
+    "“",
+    "”",
+    "„",
+    "‟",
+    "†",
+    "‡",
+    "•",
+    "‣",
+    "․",
+    "‥",
+    "…",
+    "‧",
+    "\u2028",
+    "\u2029",
+    "‪",
+    "‫",
+    "‬",
+    "‭",
+    "‮",
+    " ",
+    "‰",
+    "‱",
+    "′",
+    "″",
+    "‴",
+    "‵",
+    "‶",
+    "‷",
+    "‸",
+    "‹",
+    "›",
+    "€",
+    "♡"
+  ],
+  "Glyphs": {
+    " ": {
+      "Character": " ",
+      "BoundsInTexture": {
+        "X": 497,
+        "Y": 36,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 15,
+        "Y": 76,
+        "Width": 16,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 14.0,
+      "Width": 1.0,
+      "WidthIncludingBearings": 15.0
+    },
+    "!": {
+      "Character": "!",
+      "BoundsInTexture": {
+        "X": 180,
+        "Y": 42,
+        "Width": 3,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 3,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 3.0,
+      "WidthIncludingBearings": 9.0
+    },
+    "\"": {
+      "Character": "\"",
+      "BoundsInTexture": {
+        "X": 216,
+        "Y": 251,
+        "Width": 9,
+        "Height": 6
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 9,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 9.0,
+      "WidthIncludingBearings": 15.0
+    },
+    "#": {
+      "Character": "#",
+      "BoundsInTexture": {
+        "X": 377,
+        "Y": 143,
+        "Width": 24,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "$": {
+      "Character": "$",
+      "BoundsInTexture": {
+        "X": 348,
+        "Y": 143,
+        "Width": 27,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 27,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 27.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "%": {
+      "Character": "%",
+      "BoundsInTexture": {
+        "X": 450,
+        "Y": 108,
+        "Width": 27,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 27,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 27.0,
+      "WidthIncludingBearings": 33.0
+    },
+    "&": {
+      "Character": "&",
+      "BoundsInTexture": {
+        "X": 400,
+        "Y": 172,
+        "Width": 21,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "'": {
+      "Character": "'",
+      "BoundsInTexture": {
+        "X": 429,
+        "Y": 163,
+        "Width": 3,
+        "Height": 6
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 3,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 3.0,
+      "WidthIncludingBearings": 9.0
+    },
+    "(": {
+      "Character": "(",
+      "BoundsInTexture": {
+        "X": 164,
+        "Y": 1,
+        "Width": 9,
+        "Height": 39
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 9,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 9.0,
+      "WidthIncludingBearings": 15.0
+    },
+    ")": {
+      "Character": ")",
+      "BoundsInTexture": {
+        "X": 175,
+        "Y": 1,
+        "Width": 9,
+        "Height": 39
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 9,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 9.0,
+      "WidthIncludingBearings": 15.0
+    },
+    "*": {
+      "Character": "*",
+      "BoundsInTexture": {
+        "X": 81,
+        "Y": 207,
+        "Width": 21,
+        "Height": 21
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 15,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "+": {
+      "Character": "+",
+      "BoundsInTexture": {
+        "X": 27,
+        "Y": 208,
+        "Width": 21,
+        "Height": 21
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    ",": {
+      "Character": ",",
+      "BoundsInTexture": {
+        "X": 53,
+        "Y": 165,
+        "Width": 6,
+        "Height": 9
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 33,
+        "Width": 6,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "-": {
+      "Character": "-",
+      "BoundsInTexture": {
+        "X": 314,
+        "Y": 251,
+        "Width": 12,
+        "Height": 3
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 24,
+        "Width": 12,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 18.0
+    },
+    ".": {
+      "Character": ".",
+      "BoundsInTexture": {
+        "X": 506,
+        "Y": 170,
+        "Width": 3,
+        "Height": 3
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 33,
+        "Width": 3,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 3.0,
+      "WidthIncludingBearings": 9.0
+    },
+    "/": {
+      "Character": "/",
+      "BoundsInTexture": {
+        "X": 127,
+        "Y": 143,
+        "Width": 15,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "0": {
+      "Character": "0",
+      "BoundsInTexture": {
+        "X": 275,
+        "Y": 173,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "1": {
+      "Character": "1",
+      "BoundsInTexture": {
+        "X": 107,
+        "Y": 175,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 6.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "2": {
+      "Character": "2",
+      "BoundsInTexture": {
+        "X": 124,
+        "Y": 175,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "3": {
+      "Character": "3",
+      "BoundsInTexture": {
+        "X": 87,
+        "Y": 149,
+        "Width": 18,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "4": {
+      "Character": "4",
+      "BoundsInTexture": {
+        "X": 436,
+        "Y": 111,
+        "Width": 12,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 12,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "5": {
+      "Character": "5",
+      "BoundsInTexture": {
+        "X": 292,
+        "Y": 175,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "6": {
+      "Character": "6",
+      "BoundsInTexture": {
+        "X": 446,
+        "Y": 172,
+        "Width": 18,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "7": {
+      "Character": "7",
+      "BoundsInTexture": {
+        "X": 309,
+        "Y": 175,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "8": {
+      "Character": "8",
+      "BoundsInTexture": {
+        "X": 326,
+        "Y": 175,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "9": {
+      "Character": "9",
+      "BoundsInTexture": {
+        "X": 53,
+        "Y": 178,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    ":": {
+      "Character": ":",
+      "BoundsInTexture": {
+        "X": 429,
+        "Y": 143,
+        "Width": 3,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 3,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 3.0,
+      "WidthIncludingBearings": 9.0
+    },
+    ";": {
+      "Character": ";",
+      "BoundsInTexture": {
+        "X": 108,
+        "Y": 49,
+        "Width": 6,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 6,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "<": {
+      "Character": "<",
+      "BoundsInTexture": {
+        "X": 169,
+        "Y": 228,
+        "Width": 21,
+        "Height": 21
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 15,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "=": {
+      "Character": "=",
+      "BoundsInTexture": {
+        "X": 61,
+        "Y": 84,
+        "Width": 30,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 30,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 30.0,
+      "WidthIncludingBearings": 33.0
+    },
+    ">": {
+      "Character": ">",
+      "BoundsInTexture": {
+        "X": 192,
+        "Y": 228,
+        "Width": 18,
+        "Height": 21
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "?": {
+      "Character": "?",
+      "BoundsInTexture": {
+        "X": 157,
+        "Y": 141,
+        "Width": 18,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "@": {
+      "Character": "@",
+      "BoundsInTexture": {
+        "X": 212,
+        "Y": 228,
+        "Width": 18,
+        "Height": 21
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "A": {
+      "Character": "A",
+      "BoundsInTexture": {
+        "X": 297,
+        "Y": 143,
+        "Width": 15,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "B": {
+      "Character": "B",
+      "BoundsInTexture": {
+        "X": 275,
+        "Y": 109,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "C": {
+      "Character": "C",
+      "BoundsInTexture": {
+        "X": 134,
+        "Y": 111,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "D": {
+      "Character": "D",
+      "BoundsInTexture": {
+        "X": 298,
+        "Y": 111,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "E": {
+      "Character": "E",
+      "BoundsInTexture": {
+        "X": 321,
+        "Y": 111,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "F": {
+      "Character": "F",
+      "BoundsInTexture": {
+        "X": 177,
+        "Y": 141,
+        "Width": 18,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "G": {
+      "Character": "G",
+      "BoundsInTexture": {
+        "X": 197,
+        "Y": 109,
+        "Width": 24,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "H": {
+      "Character": "H",
+      "BoundsInTexture": {
+        "X": 423,
+        "Y": 172,
+        "Width": 21,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "I": {
+      "Character": "I",
+      "BoundsInTexture": {
+        "X": 46,
+        "Y": 52,
+        "Width": 3,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 3,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 3.0,
+      "WidthIncludingBearings": 9.0
+    },
+    "J": {
+      "Character": "J",
+      "BoundsInTexture": {
+        "X": 47,
+        "Y": 118,
+        "Width": 12,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 12,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "K": {
+      "Character": "K",
+      "BoundsInTexture": {
+        "X": 197,
+        "Y": 141,
+        "Width": 18,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "L": {
+      "Character": "L",
+      "BoundsInTexture": {
+        "X": 217,
+        "Y": 141,
+        "Width": 18,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "M": {
+      "Character": "M",
+      "BoundsInTexture": {
+        "X": 479,
+        "Y": 108,
+        "Width": 27,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 27,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 27.0,
+      "WidthIncludingBearings": 33.0
+    },
+    "N": {
+      "Character": "N",
+      "BoundsInTexture": {
+        "X": 344,
+        "Y": 111,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "O": {
+      "Character": "O",
+      "BoundsInTexture": {
+        "X": 223,
+        "Y": 109,
+        "Width": 24,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "P": {
+      "Character": "P",
+      "BoundsInTexture": {
+        "X": 367,
+        "Y": 111,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "Q": {
+      "Character": "Q",
+      "BoundsInTexture": {
+        "X": 249,
+        "Y": 109,
+        "Width": 24,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "R": {
+      "Character": "R",
+      "BoundsInTexture": {
+        "X": 390,
+        "Y": 111,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "S": {
+      "Character": "S",
+      "BoundsInTexture": {
+        "X": 413,
+        "Y": 111,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "T": {
+      "Character": "T",
+      "BoundsInTexture": {
+        "X": 61,
+        "Y": 116,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "U": {
+      "Character": "U",
+      "BoundsInTexture": {
+        "X": 84,
+        "Y": 117,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "V": {
+      "Character": "V",
+      "BoundsInTexture": {
+        "X": 1,
+        "Y": 118,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "W": {
+      "Character": "W",
+      "BoundsInTexture": {
+        "X": 1,
+        "Y": 86,
+        "Width": 33,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 33,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 33.0,
+      "WidthIncludingBearings": 39.0
+    },
+    "X": {
+      "Character": "X",
+      "BoundsInTexture": {
+        "X": 24,
+        "Y": 118,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "Y": {
+      "Character": "Y",
+      "BoundsInTexture": {
+        "X": 436,
+        "Y": 140,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "Z": {
+      "Character": "Z",
+      "BoundsInTexture": {
+        "X": 459,
+        "Y": 140,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "[": {
+      "Character": "[",
+      "BoundsInTexture": {
+        "X": 172,
+        "Y": 42,
+        "Width": 6,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 6,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "\\": {
+      "Character": "\\",
+      "BoundsInTexture": {
+        "X": 314,
+        "Y": 143,
+        "Width": 15,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "]": {
+      "Character": "]",
+      "BoundsInTexture": {
+        "X": 69,
+        "Y": 49,
+        "Width": 6,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 6,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "^": {
+      "Character": "^",
+      "BoundsInTexture": {
+        "X": 52,
+        "Y": 250,
+        "Width": 15,
+        "Height": 15
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "_": {
+      "Character": "_",
+      "BoundsInTexture": {
+        "X": 251,
+        "Y": 251,
+        "Width": 21,
+        "Height": 3
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 39,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "`": {
+      "Character": "`",
+      "BoundsInTexture": {
+        "X": 1,
+        "Y": 251,
+        "Width": 6,
+        "Height": 9
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 6,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "a": {
+      "Character": "a",
+      "BoundsInTexture": {
+        "X": 277,
+        "Y": 230,
+        "Width": 18,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "b": {
+      "Character": "b",
+      "BoundsInTexture": {
+        "X": 331,
+        "Y": 143,
+        "Width": 15,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "c": {
+      "Character": "c",
+      "BoundsInTexture": {
+        "X": 297,
+        "Y": 230,
+        "Width": 15,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "d": {
+      "Character": "d",
+      "BoundsInTexture": {
+        "X": 237,
+        "Y": 141,
+        "Width": 18,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "e": {
+      "Character": "e",
+      "BoundsInTexture": {
+        "X": 409,
+        "Y": 230,
+        "Width": 15,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "f": {
+      "Character": "f",
+      "BoundsInTexture": {
+        "X": 141,
+        "Y": 175,
+        "Width": 12,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 12,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "g": {
+      "Character": "g",
+      "BoundsInTexture": {
+        "X": 70,
+        "Y": 178,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "h": {
+      "Character": "h",
+      "BoundsInTexture": {
+        "X": 87,
+        "Y": 178,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "i": {
+      "Character": "i",
+      "BoundsInTexture": {
+        "X": 508,
+        "Y": 103,
+        "Width": 3,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 3,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 3.0,
+      "WidthIncludingBearings": 9.0
+    },
+    "j": {
+      "Character": "j",
+      "BoundsInTexture": {
+        "X": 168,
+        "Y": 77,
+        "Width": 9,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 9,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 9.0,
+      "WidthIncludingBearings": 15.0
+    },
+    "k": {
+      "Character": "k",
+      "BoundsInTexture": {
+        "X": 249,
+        "Y": 228,
+        "Width": 12,
+        "Height": 21
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 15,
+        "Width": 12,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "l": {
+      "Character": "l",
+      "BoundsInTexture": {
+        "X": 505,
+        "Y": 74,
+        "Width": 6,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 6,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "m": {
+      "Character": "m",
+      "BoundsInTexture": {
+        "X": 50,
+        "Y": 230,
+        "Width": 27,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 27,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 27.0,
+      "WidthIncludingBearings": 33.0
+    },
+    "n": {
+      "Character": "n",
+      "BoundsInTexture": {
+        "X": 426,
+        "Y": 230,
+        "Width": 15,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "o": {
+      "Character": "o",
+      "BoundsInTexture": {
+        "X": 443,
+        "Y": 230,
+        "Width": 15,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "p": {
+      "Character": "p",
+      "BoundsInTexture": {
+        "X": 1,
+        "Y": 179,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "q": {
+      "Character": "q",
+      "BoundsInTexture": {
+        "X": 466,
+        "Y": 172,
+        "Width": 18,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "r": {
+      "Character": "r",
+      "BoundsInTexture": {
+        "X": 460,
+        "Y": 230,
+        "Width": 15,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "s": {
+      "Character": "s",
+      "BoundsInTexture": {
+        "X": 477,
+        "Y": 230,
+        "Width": 15,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "t": {
+      "Character": "t",
+      "BoundsInTexture": {
+        "X": 155,
+        "Y": 202,
+        "Width": 12,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 12,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "u": {
+      "Character": "u",
+      "BoundsInTexture": {
+        "X": 329,
+        "Y": 230,
+        "Width": 18,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "v": {
+      "Character": "v",
+      "BoundsInTexture": {
+        "X": 494,
+        "Y": 230,
+        "Width": 15,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "w": {
+      "Character": "w",
+      "BoundsInTexture": {
+        "X": 108,
+        "Y": 230,
+        "Width": 21,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "x": {
+      "Character": "x",
+      "BoundsInTexture": {
+        "X": 1,
+        "Y": 231,
+        "Width": 15,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "y": {
+      "Character": "y",
+      "BoundsInTexture": {
+        "X": 18,
+        "Y": 179,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "z": {
+      "Character": "z",
+      "BoundsInTexture": {
+        "X": 18,
+        "Y": 231,
+        "Width": 15,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "{": {
+      "Character": "{",
+      "BoundsInTexture": {
+        "X": 324,
+        "Y": 39,
+        "Width": 15,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "|": {
+      "Character": "|",
+      "BoundsInTexture": {
+        "X": 508,
+        "Y": 1,
+        "Width": 3,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 3,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 3.0,
+      "WidthIncludingBearings": 9.0
+    },
+    "}": {
+      "Character": "}",
+      "BoundsInTexture": {
+        "X": 341,
+        "Y": 39,
+        "Width": 15,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "~": {
+      "Character": "~",
+      "BoundsInTexture": {
+        "X": 196,
+        "Y": 251,
+        "Width": 18,
+        "Height": 6
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 500,
+        "Y": 36,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 40,
+        "Y": 83,
+        "Width": 41,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 41.0,
+      "WidthIncludingBearings": 46.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 93,
+        "Y": 49,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 1,
+        "Y": 52,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 16,
+        "Y": 52,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 31,
+        "Y": 52,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 460,
+        "Y": 74,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "\u0085": {
+      "Character": "\u0085",
+      "BoundsInTexture": {
+        "X": 503,
+        "Y": 36,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 15,
+        "Y": 83,
+        "Width": 16,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 16.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 475,
+        "Y": 74,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 490,
+        "Y": 74,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 180,
+        "Y": 75,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 195,
+        "Y": 75,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 210,
+        "Y": 75,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 225,
+        "Y": 75,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 240,
+        "Y": 75,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 255,
+        "Y": 75,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 270,
+        "Y": 75,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 285,
+        "Y": 75,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 108,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 123,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 138,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 153,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 300,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 315,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 330,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 345,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 360,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 375,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 390,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 405,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 420,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 435,
+        "Y": 77,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 93,
+        "Y": 83,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "": {
+      "Character": "",
+      "BoundsInTexture": {
+        "X": 46,
+        "Y": 84,
+        "Width": 13,
+        "Height": 32
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 4,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    " ": {
+      "Character": " ",
+      "BoundsInTexture": {
+        "X": 506,
+        "Y": 36,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 31,
+        "Y": 76,
+        "Width": 32,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 14.0,
+      "Width": 1.0,
+      "WidthIncludingBearings": 15.0
+    },
+    "¡": {
+      "Character": "¡",
+      "BoundsInTexture": {
+        "X": 508,
+        "Y": 129,
+        "Width": 3,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 15,
+        "Width": 3,
+        "Height": 51
+      },
+      "LeftSideBearing": 6.0,
+      "RightSideBearing": 3.0,
+      "Width": 3.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "¢": {
+      "Character": "¢",
+      "BoundsInTexture": {
+        "X": 35,
+        "Y": 179,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "£": {
+      "Character": "£",
+      "BoundsInTexture": {
+        "X": 403,
+        "Y": 143,
+        "Width": 24,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "¤": {
+      "Character": "¤",
+      "BoundsInTexture": {
+        "X": 61,
+        "Y": 149,
+        "Width": 24,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "¥": {
+      "Character": "¥",
+      "BoundsInTexture": {
+        "X": 1,
+        "Y": 150,
+        "Width": 24,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "¦": {
+      "Character": "¦",
+      "BoundsInTexture": {
+        "X": 27,
+        "Y": 150,
+        "Width": 24,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "§": {
+      "Character": "§",
+      "BoundsInTexture": {
+        "X": 348,
+        "Y": 172,
+        "Width": 24,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "¨": {
+      "Character": "¨",
+      "BoundsInTexture": {
+        "X": 131,
+        "Y": 230,
+        "Width": 21,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "©": {
+      "Character": "©",
+      "BoundsInTexture": {
+        "X": 169,
+        "Y": 202,
+        "Width": 24,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "ª": {
+      "Character": "ª",
+      "BoundsInTexture": {
+        "X": 35,
+        "Y": 250,
+        "Width": 15,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "«": {
+      "Character": "«",
+      "BoundsInTexture": {
+        "X": 349,
+        "Y": 230,
+        "Width": 18,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "¬": {
+      "Character": "¬",
+      "BoundsInTexture": {
+        "X": 337,
+        "Y": 250,
+        "Width": 21,
+        "Height": 12
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "­": {
+      "Character": "­",
+      "BoundsInTexture": {
+        "X": 509,
+        "Y": 36,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 15,
+        "Y": 83,
+        "Width": 16,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 16.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "®": {
+      "Character": "®",
+      "BoundsInTexture": {
+        "X": 195,
+        "Y": 202,
+        "Width": 24,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "¯": {
+      "Character": "¯",
+      "BoundsInTexture": {
+        "X": 236,
+        "Y": 259,
+        "Width": 25,
+        "Height": 3
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": -5,
+        "Width": 25,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 25.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "°": {
+      "Character": "°",
+      "BoundsInTexture": {
+        "X": 378,
+        "Y": 250,
+        "Width": 12,
+        "Height": 12
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 12,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "±": {
+      "Character": "±",
+      "BoundsInTexture": {
+        "X": 232,
+        "Y": 228,
+        "Width": 15,
+        "Height": 21
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 15,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "²": {
+      "Character": "²",
+      "BoundsInTexture": {
+        "X": 263,
+        "Y": 228,
+        "Width": 12,
+        "Height": 21
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 12,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "³": {
+      "Character": "³",
+      "BoundsInTexture": {
+        "X": 315,
+        "Y": 228,
+        "Width": 12,
+        "Height": 21
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 12,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "´": {
+      "Character": "´",
+      "BoundsInTexture": {
+        "X": 227,
+        "Y": 251,
+        "Width": 6,
+        "Height": 6
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 6,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "µ": {
+      "Character": "µ",
+      "BoundsInTexture": {
+        "X": 212,
+        "Y": 40,
+        "Width": 21,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "¶": {
+      "Character": "¶",
+      "BoundsInTexture": {
+        "X": 118,
+        "Y": 1,
+        "Width": 21,
+        "Height": 39
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "·": {
+      "Character": "·",
+      "BoundsInTexture": {
+        "X": 343,
+        "Y": 175,
+        "Width": 3,
+        "Height": 3
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 3,
+        "Height": 51
+      },
+      "LeftSideBearing": 6.0,
+      "RightSideBearing": 3.0,
+      "Width": 3.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "¸": {
+      "Character": "¸",
+      "BoundsInTexture": {
+        "X": 500,
+        "Y": 250,
+        "Width": 9,
+        "Height": 9
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 36,
+        "Width": 9,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 9.0,
+      "WidthIncludingBearings": 15.0
+    },
+    "¹": {
+      "Character": "¹",
+      "BoundsInTexture": {
+        "X": 154,
+        "Y": 231,
+        "Width": 9,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 9,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 9.0,
+      "WidthIncludingBearings": 15.0
+    },
+    "º": {
+      "Character": "º",
+      "BoundsInTexture": {
+        "X": 35,
+        "Y": 231,
+        "Width": 12,
+        "Height": 15
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 12,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "»": {
+      "Character": "»",
+      "BoundsInTexture": {
+        "X": 369,
+        "Y": 230,
+        "Width": 18,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "¼": {
+      "Character": "¼",
+      "BoundsInTexture": {
+        "X": 1,
+        "Y": 208,
+        "Width": 24,
+        "Height": 21
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 15,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 6.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 33.0
+    },
+    "½": {
+      "Character": "½",
+      "BoundsInTexture": {
+        "X": 52,
+        "Y": 207,
+        "Width": 27,
+        "Height": 21
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 15,
+        "Width": 27,
+        "Height": 51
+      },
+      "LeftSideBearing": 6.0,
+      "RightSideBearing": 3.0,
+      "Width": 27.0,
+      "WidthIncludingBearings": 36.0
+    },
+    "¾": {
+      "Character": "¾",
+      "BoundsInTexture": {
+        "X": 221,
+        "Y": 202,
+        "Width": 24,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 6.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 33.0
+    },
+    "¿": {
+      "Character": "¿",
+      "BoundsInTexture": {
+        "X": 343,
+        "Y": 201,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 15,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 6.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "À": {
+      "Character": "À",
+      "BoundsInTexture": {
+        "X": 358,
+        "Y": 39,
+        "Width": 15,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "Á": {
+      "Character": "Á",
+      "BoundsInTexture": {
+        "X": 375,
+        "Y": 39,
+        "Width": 15,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "Â": {
+      "Character": "Â",
+      "BoundsInTexture": {
+        "X": 392,
+        "Y": 39,
+        "Width": 15,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "Ã": {
+      "Character": "Ã",
+      "BoundsInTexture": {
+        "X": 409,
+        "Y": 39,
+        "Width": 15,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "Ä": {
+      "Character": "Ä",
+      "BoundsInTexture": {
+        "X": 138,
+        "Y": 42,
+        "Width": 15,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "Å": {
+      "Character": "Å",
+      "BoundsInTexture": {
+        "X": 426,
+        "Y": 39,
+        "Width": 15,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "Æ": {
+      "Character": "Æ",
+      "BoundsInTexture": {
+        "X": 108,
+        "Y": 111,
+        "Width": 24,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "Ç": {
+      "Character": "Ç",
+      "BoundsInTexture": {
+        "X": 141,
+        "Y": 1,
+        "Width": 21,
+        "Height": 39
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "È": {
+      "Character": "È",
+      "BoundsInTexture": {
+        "X": 491,
+        "Y": 39,
+        "Width": 18,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "É": {
+      "Character": "É",
+      "BoundsInTexture": {
+        "X": 281,
+        "Y": 40,
+        "Width": 18,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "Ê": {
+      "Character": "Ê",
+      "BoundsInTexture": {
+        "X": 118,
+        "Y": 42,
+        "Width": 18,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "Ë": {
+      "Character": "Ë",
+      "BoundsInTexture": {
+        "X": 257,
+        "Y": 141,
+        "Width": 18,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "Ì": {
+      "Character": "Ì",
+      "BoundsInTexture": {
+        "X": 77,
+        "Y": 49,
+        "Width": 6,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 6,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "Í": {
+      "Character": "Í",
+      "BoundsInTexture": {
+        "X": 85,
+        "Y": 49,
+        "Width": 6,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 6,
+        "Height": 51
+      },
+      "LeftSideBearing": 6.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 15.0
+    },
+    "Î": {
+      "Character": "Î",
+      "BoundsInTexture": {
+        "X": 497,
+        "Y": 1,
+        "Width": 9,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 9,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 9.0,
+      "WidthIncludingBearings": 15.0
+    },
+    "Ï": {
+      "Character": "Ï",
+      "BoundsInTexture": {
+        "X": 144,
+        "Y": 143,
+        "Width": 9,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 9,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 9.0,
+      "WidthIncludingBearings": 15.0
+    },
+    "Ð": {
+      "Character": "Ð",
+      "BoundsInTexture": {
+        "X": 482,
+        "Y": 140,
+        "Width": 21,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "Ñ": {
+      "Character": "Ñ",
+      "BoundsInTexture": {
+        "X": 405,
+        "Y": 1,
+        "Width": 21,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "Ò": {
+      "Character": "Ò",
+      "BoundsInTexture": {
+        "X": 301,
+        "Y": 1,
+        "Width": 24,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "Ó": {
+      "Character": "Ó",
+      "BoundsInTexture": {
+        "X": 327,
+        "Y": 1,
+        "Width": 24,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "Ô": {
+      "Character": "Ô",
+      "BoundsInTexture": {
+        "X": 353,
+        "Y": 1,
+        "Width": 24,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "Õ": {
+      "Character": "Õ",
+      "BoundsInTexture": {
+        "X": 379,
+        "Y": 1,
+        "Width": 24,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "Ö": {
+      "Character": "Ö",
+      "BoundsInTexture": {
+        "X": 186,
+        "Y": 40,
+        "Width": 24,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "×": {
+      "Character": "×",
+      "BoundsInTexture": {
+        "X": 69,
+        "Y": 250,
+        "Width": 15,
+        "Height": 15
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 15,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 6.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "Ø": {
+      "Character": "Ø",
+      "BoundsInTexture": {
+        "X": 168,
+        "Y": 109,
+        "Width": 27,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 27,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 27.0,
+      "WidthIncludingBearings": 33.0
+    },
+    "Ù": {
+      "Character": "Ù",
+      "BoundsInTexture": {
+        "X": 428,
+        "Y": 1,
+        "Width": 21,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "Ú": {
+      "Character": "Ú",
+      "BoundsInTexture": {
+        "X": 451,
+        "Y": 1,
+        "Width": 21,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "Û": {
+      "Character": "Û",
+      "BoundsInTexture": {
+        "X": 474,
+        "Y": 1,
+        "Width": 21,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "Ü": {
+      "Character": "Ü",
+      "BoundsInTexture": {
+        "X": 235,
+        "Y": 40,
+        "Width": 21,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "Ý": {
+      "Character": "Ý",
+      "BoundsInTexture": {
+        "X": 301,
+        "Y": 39,
+        "Width": 21,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "Þ": {
+      "Character": "Þ",
+      "BoundsInTexture": {
+        "X": 104,
+        "Y": 204,
+        "Width": 15,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "ß": {
+      "Character": "ß",
+      "BoundsInTexture": {
+        "X": 277,
+        "Y": 141,
+        "Width": 18,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "à": {
+      "Character": "à",
+      "BoundsInTexture": {
+        "X": 486,
+        "Y": 172,
+        "Width": 18,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "á": {
+      "Character": "á",
+      "BoundsInTexture": {
+        "X": 155,
+        "Y": 173,
+        "Width": 18,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "â": {
+      "Character": "â",
+      "BoundsInTexture": {
+        "X": 175,
+        "Y": 173,
+        "Width": 18,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "ã": {
+      "Character": "ã",
+      "BoundsInTexture": {
+        "X": 195,
+        "Y": 173,
+        "Width": 18,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "ä": {
+      "Character": "ä",
+      "BoundsInTexture": {
+        "X": 247,
+        "Y": 202,
+        "Width": 18,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "å": {
+      "Character": "å",
+      "BoundsInTexture": {
+        "X": 107,
+        "Y": 143,
+        "Width": 18,
+        "Height": 30
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 6,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "æ": {
+      "Character": "æ",
+      "BoundsInTexture": {
+        "X": 79,
+        "Y": 230,
+        "Width": 27,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 27,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 27.0,
+      "WidthIncludingBearings": 33.0
+    },
+    "ç": {
+      "Character": "ç",
+      "BoundsInTexture": {
+        "X": 360,
+        "Y": 201,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "è": {
+      "Character": "è",
+      "BoundsInTexture": {
+        "X": 377,
+        "Y": 201,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "é": {
+      "Character": "é",
+      "BoundsInTexture": {
+        "X": 394,
+        "Y": 201,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "ê": {
+      "Character": "ê",
+      "BoundsInTexture": {
+        "X": 411,
+        "Y": 201,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "ë": {
+      "Character": "ë",
+      "BoundsInTexture": {
+        "X": 121,
+        "Y": 204,
+        "Width": 15,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "ì": {
+      "Character": "ì",
+      "BoundsInTexture": {
+        "X": 450,
+        "Y": 77,
+        "Width": 6,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 6,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 9.0
+    },
+    "í": {
+      "Character": "í",
+      "BoundsInTexture": {
+        "X": 36,
+        "Y": 86,
+        "Width": 6,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 6,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "î": {
+      "Character": "î",
+      "BoundsInTexture": {
+        "X": 157,
+        "Y": 111,
+        "Width": 9,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 9,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 9.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "ï": {
+      "Character": "ï",
+      "BoundsInTexture": {
+        "X": 304,
+        "Y": 204,
+        "Width": 9,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 9,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 9.0,
+      "WidthIncludingBearings": 12.0
+    },
+    "ð": {
+      "Character": "ð",
+      "BoundsInTexture": {
+        "X": 155,
+        "Y": 42,
+        "Width": 15,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "ñ": {
+      "Character": "ñ",
+      "BoundsInTexture": {
+        "X": 428,
+        "Y": 201,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "ò": {
+      "Character": "ò",
+      "BoundsInTexture": {
+        "X": 445,
+        "Y": 201,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "ó": {
+      "Character": "ó",
+      "BoundsInTexture": {
+        "X": 462,
+        "Y": 201,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "ô": {
+      "Character": "ô",
+      "BoundsInTexture": {
+        "X": 479,
+        "Y": 201,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "õ": {
+      "Character": "õ",
+      "BoundsInTexture": {
+        "X": 496,
+        "Y": 201,
+        "Width": 15,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "ö": {
+      "Character": "ö",
+      "BoundsInTexture": {
+        "X": 138,
+        "Y": 204,
+        "Width": 15,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "÷": {
+      "Character": "÷",
+      "BoundsInTexture": {
+        "X": 86,
+        "Y": 250,
+        "Width": 15,
+        "Height": 15
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 15,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "ø": {
+      "Character": "ø",
+      "BoundsInTexture": {
+        "X": 389,
+        "Y": 230,
+        "Width": 18,
+        "Height": 18
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "ù": {
+      "Character": "ù",
+      "BoundsInTexture": {
+        "X": 215,
+        "Y": 173,
+        "Width": 18,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "ú": {
+      "Character": "ú",
+      "BoundsInTexture": {
+        "X": 235,
+        "Y": 173,
+        "Width": 18,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "û": {
+      "Character": "û",
+      "BoundsInTexture": {
+        "X": 255,
+        "Y": 173,
+        "Width": 18,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "ü": {
+      "Character": "ü",
+      "BoundsInTexture": {
+        "X": 267,
+        "Y": 202,
+        "Width": 18,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 18,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 18.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "ý": {
+      "Character": "ý",
+      "BoundsInTexture": {
+        "X": 443,
+        "Y": 39,
+        "Width": 15,
+        "Height": 36
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "þ": {
+      "Character": "þ",
+      "BoundsInTexture": {
+        "X": 287,
+        "Y": 204,
+        "Width": 15,
+        "Height": 24
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 18,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "ÿ": {
+      "Character": "ÿ",
+      "BoundsInTexture": {
+        "X": 52,
+        "Y": 49,
+        "Width": 15,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 15,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 15.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "Ÿ": {
+      "Character": "Ÿ",
+      "BoundsInTexture": {
+        "X": 258,
+        "Y": 40,
+        "Width": 21,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 3,
+        "Width": 21,
+        "Height": 51
+      },
+      "LeftSideBearing": 3.0,
+      "RightSideBearing": 3.0,
+      "Width": 21.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "—": {
+      "Character": "—",
+      "BoundsInTexture": {
+        "X": 175,
+        "Y": 259,
+        "Width": 29,
+        "Height": 4
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 21,
+        "Width": 29,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 29.0,
+      "WidthIncludingBearings": 34.0
+    },
+    "―": {
+      "Character": "―",
+      "BoundsInTexture": {
+        "X": 206,
+        "Y": 259,
+        "Width": 28,
+        "Height": 3
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": -5,
+        "Width": 28,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 28.0,
+      "WidthIncludingBearings": 33.0
+    },
+    "‖": {
+      "Character": "‖",
+      "BoundsInTexture": {
+        "X": 104,
+        "Y": 1,
+        "Width": 12,
+        "Height": 46
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 1,
+        "Width": 12,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 17.0
+    },
+    "‗": {
+      "Character": "‗",
+      "BoundsInTexture": {
+        "X": 148,
+        "Y": 251,
+        "Width": 25,
+        "Height": 8
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 38,
+        "Width": 25,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 25.0,
+      "WidthIncludingBearings": 30.0
+    },
+    "‘": {
+      "Character": "‘",
+      "BoundsInTexture": {
+        "X": 53,
+        "Y": 150,
+        "Width": 6,
+        "Height": 13
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 6,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 11.0
+    },
+    "’": {
+      "Character": "’",
+      "BoundsInTexture": {
+        "X": 505,
+        "Y": 155,
+        "Width": 6,
+        "Height": 13
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 1,
+        "Width": 6,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 11.0
+    },
+    "‚": {
+      "Character": "‚",
+      "BoundsInTexture": {
+        "X": 306,
+        "Y": 250,
+        "Width": 6,
+        "Height": 13
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 30,
+        "Width": 6,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 11.0
+    },
+    "‛": {
+      "Character": "‛",
+      "BoundsInTexture": {
+        "X": 329,
+        "Y": 250,
+        "Width": 6,
+        "Height": 13
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 1,
+        "Width": 6,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 11.0
+    },
+    "“": {
+      "Character": "“",
+      "BoundsInTexture": {
+        "X": 103,
+        "Y": 250,
+        "Width": 13,
+        "Height": 13
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "”": {
+      "Character": "”",
+      "BoundsInTexture": {
+        "X": 118,
+        "Y": 250,
+        "Width": 13,
+        "Height": 13
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 1,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "„": {
+      "Character": "„",
+      "BoundsInTexture": {
+        "X": 133,
+        "Y": 250,
+        "Width": 13,
+        "Height": 13
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 30,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "‟": {
+      "Character": "‟",
+      "BoundsInTexture": {
+        "X": 277,
+        "Y": 250,
+        "Width": 13,
+        "Height": 13
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 1,
+        "Width": 13,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 13.0,
+      "WidthIncludingBearings": 18.0
+    },
+    "†": {
+      "Character": "†",
+      "BoundsInTexture": {
+        "X": 52,
+        "Y": 1,
+        "Width": 24,
+        "Height": 46
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 1,
+        "Width": 24,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 29.0
+    },
+    "‡": {
+      "Character": "‡",
+      "BoundsInTexture": {
+        "X": 78,
+        "Y": 1,
+        "Width": 24,
+        "Height": 46
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 1,
+        "Width": 24,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 29.0
+    },
+    "•": {
+      "Character": "•",
+      "BoundsInTexture": {
+        "X": 292,
+        "Y": 250,
+        "Width": 12,
+        "Height": 13
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 12,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 17.0
+    },
+    "‣": {
+      "Character": "‣",
+      "BoundsInTexture": {
+        "X": 392,
+        "Y": 250,
+        "Width": 12,
+        "Height": 12
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 14,
+        "Width": 12,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 17.0
+    },
+    "․": {
+      "Character": "․",
+      "BoundsInTexture": {
+        "X": 235,
+        "Y": 251,
+        "Width": 6,
+        "Height": 6
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 30,
+        "Width": 6,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 11.0
+    },
+    "‥": {
+      "Character": "‥",
+      "BoundsInTexture": {
+        "X": 175,
+        "Y": 251,
+        "Width": 19,
+        "Height": 6
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 30,
+        "Width": 19,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 19.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "…": {
+      "Character": "…",
+      "BoundsInTexture": {
+        "X": 9,
+        "Y": 251,
+        "Width": 24,
+        "Height": 6
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 30,
+        "Width": 24,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 29.0
+    },
+    "‧": {
+      "Character": "‧",
+      "BoundsInTexture": {
+        "X": 243,
+        "Y": 251,
+        "Width": 6,
+        "Height": 6
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 16,
+        "Width": 6,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 6.0,
+      "WidthIncludingBearings": 11.0
+    },
+    "\u2028": {
+      "Character": "\u2028",
+      "BoundsInTexture": {
+        "X": 1,
+        "Y": 1,
+        "Width": 49,
+        "Height": 49
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": -6,
+        "Width": 49,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 49.0,
+      "WidthIncludingBearings": 54.0
+    },
+    "\u2029": {
+      "Character": "\u2029",
+      "BoundsInTexture": {
+        "X": 180,
+        "Y": 71,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 15,
+        "Y": 83,
+        "Width": 16,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 16.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "‪": {
+      "Character": "‪",
+      "BoundsInTexture": {
+        "X": 183,
+        "Y": 71,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 15,
+        "Y": 83,
+        "Width": 16,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 16.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "‫": {
+      "Character": "‫",
+      "BoundsInTexture": {
+        "X": 46,
+        "Y": 81,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 15,
+        "Y": 83,
+        "Width": 16,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 16.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "‬": {
+      "Character": "‬",
+      "BoundsInTexture": {
+        "X": 49,
+        "Y": 81,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 15,
+        "Y": 83,
+        "Width": 16,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 16.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "‭": {
+      "Character": "‭",
+      "BoundsInTexture": {
+        "X": 505,
+        "Y": 103,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 15,
+        "Y": 83,
+        "Width": 16,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 16.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "‮": {
+      "Character": "‮",
+      "BoundsInTexture": {
+        "X": 36,
+        "Y": 115,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 15,
+        "Y": 83,
+        "Width": 16,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 16.0,
+      "WidthIncludingBearings": 21.0
+    },
+    " ": {
+      "Character": " ",
+      "BoundsInTexture": {
+        "X": 39,
+        "Y": 115,
+        "Width": 1,
+        "Height": 1
+      },
+      "Cropping": {
+        "X": 22,
+        "Y": 83,
+        "Width": 23,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 23.0,
+      "WidthIncludingBearings": 28.0
+    },
+    "‰": {
+      "Character": "‰",
+      "BoundsInTexture": {
+        "X": 252,
+        "Y": 1,
+        "Width": 47,
+        "Height": 37
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 47,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 47.0,
+      "WidthIncludingBearings": 52.0
+    },
+    "‱": {
+      "Character": "‱",
+      "BoundsInTexture": {
+        "X": 186,
+        "Y": 1,
+        "Width": 64,
+        "Height": 37
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 64.0,
+      "WidthIncludingBearings": 69.0
+    },
+    "′": {
+      "Character": "′",
+      "BoundsInTexture": {
+        "X": 480,
+        "Y": 250,
+        "Width": 8,
+        "Height": 11
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 8,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 8.0,
+      "WidthIncludingBearings": 13.0
+    },
+    "″": {
+      "Character": "″",
+      "BoundsInTexture": {
+        "X": 448,
+        "Y": 250,
+        "Width": 14,
+        "Height": 11
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 14,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 14.0,
+      "WidthIncludingBearings": 19.0
+    },
+    "‴": {
+      "Character": "‴",
+      "BoundsInTexture": {
+        "X": 406,
+        "Y": 250,
+        "Width": 19,
+        "Height": 11
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 19,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 19.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "‵": {
+      "Character": "‵",
+      "BoundsInTexture": {
+        "X": 490,
+        "Y": 250,
+        "Width": 8,
+        "Height": 11
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 8,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 8.0,
+      "WidthIncludingBearings": 13.0
+    },
+    "‶": {
+      "Character": "‶",
+      "BoundsInTexture": {
+        "X": 464,
+        "Y": 250,
+        "Width": 14,
+        "Height": 11
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 14,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 14.0,
+      "WidthIncludingBearings": 19.0
+    },
+    "‷": {
+      "Character": "‷",
+      "BoundsInTexture": {
+        "X": 427,
+        "Y": 250,
+        "Width": 19,
+        "Height": 11
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 0,
+        "Width": 19,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 19.0,
+      "WidthIncludingBearings": 24.0
+    },
+    "‸": {
+      "Character": "‸",
+      "BoundsInTexture": {
+        "X": 360,
+        "Y": 250,
+        "Width": 16,
+        "Height": 12
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 34,
+        "Width": 16,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 16.0,
+      "WidthIncludingBearings": 21.0
+    },
+    "‹": {
+      "Character": "‹",
+      "BoundsInTexture": {
+        "X": 315,
+        "Y": 204,
+        "Width": 12,
+        "Height": 22
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 12,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 17.0
+    },
+    "›": {
+      "Character": "›",
+      "BoundsInTexture": {
+        "X": 329,
+        "Y": 204,
+        "Width": 12,
+        "Height": 22
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 12,
+        "Width": 12,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 12.0,
+      "WidthIncludingBearings": 17.0
+    },
+    "€": {
+      "Character": "€",
+      "BoundsInTexture": {
+        "X": 374,
+        "Y": 172,
+        "Width": 24,
+        "Height": 27
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 9,
+        "Width": 24,
+        "Height": 51
+      },
+      "LeftSideBearing": 0.0,
+      "RightSideBearing": 3.0,
+      "Width": 24.0,
+      "WidthIncludingBearings": 27.0
+    },
+    "♡": {
+      "Character": "♡",
+      "BoundsInTexture": {
+        "X": 460,
+        "Y": 39,
+        "Width": 29,
+        "Height": 33
+      },
+      "Cropping": {
+        "X": 0,
+        "Y": 2,
+        "Width": 29,
+        "Height": 56
+      },
+      "LeftSideBearing": 2.0,
+      "RightSideBearing": 3.0,
+      "Width": 29.0,
+      "WidthIncludingBearings": 34.0
+    }
+  }
+}

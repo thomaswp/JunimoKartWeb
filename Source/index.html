@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  </head>
+  <body onload="onLoad()">    
+    <script type="text/javascript">
+      var jsilConfig = {
+        printStackTrace: false,
+        xna: 4,
+
+        manifests: [
+          "JunimoKart.exe",
+          "Content/JunimoKart.contentproj"
+        //   "Content/YOUR APPLICATION NAME.contentproj"
+        ],
+      };
+    </script>
+    <script src="../Libraries/JSIL.js" type="text/javascript"></script>
+    
+    <canvas id="canvas" width="1280" height="720">
+    </canvas><br>
+
+    <div id="log"></div>
+
+    <script type="text/javascript">
+      function runMain () {
+        // We can't invoke Main() since it disposes the Game immediately, breaking everything.
+        var asm = JSIL.GetAssembly("JunimoKart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", true);
+        var game = new asm.JunimoKart.Program.Main();
+        // game.Run();
+      };
+    </script>
+  </body>
+</html>
