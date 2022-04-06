@@ -7104,28 +7104,31 @@ JSIL.MakeEnum(
     return ($T01 = JSIL.Memoize($asm06.System.Collections.Generic.Dictionary$b2.Of($asm06.System.Int32, $asm06.System.Collections.Generic.KeyValuePair$b2.Of($asm00.StardewValley.Minigames.MineCart_ObstacleTypes, $asm06.System.Single)))) ();
   };
   var $T02 = function () {
-    return ($T02 = JSIL.Memoize($asm06.System.Type)) ();
+    return ($T02 = JSIL.Memoize($asm06.System.Collections.Generic.List$b1.Of($asm06.System.Func$b3.Of(
+          $asm00.StardewValley.Minigames.MineCart_Track, $asm00.StardewValley.Minigames.MineCart_BaseTrackGenerator, 
+          $asm06.System.Boolean
+      )))) ();
   };
   var $T03 = function () {
-    return ($T03 = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_ObstacleTypes)) ();
+    return ($T03 = JSIL.Memoize($asm06.System.Type)) ();
   };
   var $T04 = function () {
-    return ($T04 = JSIL.Memoize($asm06.System.Int32)) ();
+    return ($T04 = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_ObstacleTypes)) ();
   };
   var $T05 = function () {
-    return ($T05 = JSIL.Memoize($asm06.System.Single)) ();
+    return ($T05 = JSIL.Memoize($asm06.System.Int32)) ();
   };
   var $T06 = function () {
-    return ($T06 = JSIL.Memoize($asm06.System.Collections.Generic.KeyValuePair$b2.Of($asm00.StardewValley.Minigames.MineCart_ObstacleTypes, $asm06.System.Single))) ();
+    return ($T06 = JSIL.Memoize($asm06.System.Single)) ();
   };
   var $T07 = function () {
-    return ($T07 = JSIL.Memoize($asm06.System.Func$b3.Of(
+    return ($T07 = JSIL.Memoize($asm06.System.Collections.Generic.KeyValuePair$b2.Of($asm00.StardewValley.Minigames.MineCart_ObstacleTypes, $asm06.System.Single))) ();
+  };
+  var $T08 = function () {
+    return ($T08 = JSIL.Memoize($asm06.System.Func$b3.Of(
         $asm00.StardewValley.Minigames.MineCart_Track, $asm00.StardewValley.Minigames.MineCart_BaseTrackGenerator, 
         $asm06.System.Boolean
     ))) ();
-  };
-  var $T08 = function () {
-    return ($T08 = JSIL.Memoize($asm06.System.Delegate)) ();
   };
   var $T09 = function () {
     return ($T09 = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_Track_TrackType)) ();
@@ -7134,61 +7137,65 @@ JSIL.MakeEnum(
     return ($T0A = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_Track)) ();
   };
   var $T0B = function () {
-    return ($T0B = JSIL.Memoize(System.Array.Of($asm06.System.Delegate))) ();
+    return ($T0B = JSIL.Memoize($asm06.System.Boolean)) ();
   };
   var $T0C = function () {
-    return ($T0C = JSIL.Memoize($asm06.System.Boolean)) ();
+    return ($T0C = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_Pickup)) ();
   };
   var $T0D = function () {
-    return ($T0D = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_Pickup)) ();
+    return ($T0D = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Vector2)) ();
   };
   var $T0E = function () {
-    return ($T0E = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Vector2)) ();
+    return ($T0E = JSIL.Memoize($asm06.System.Collections.Generic.List$b1.Of($asm00.StardewValley.Minigames.MineCart_Track))) ();
   };
   var $T0F = function () {
-    return ($T0F = JSIL.Memoize($asm06.System.Collections.Generic.List$b1.Of($asm00.StardewValley.Minigames.MineCart_Track))) ();
+    return ($T0F = JSIL.Memoize($asm06.System.Comparison$b1.Of($asm00.StardewValley.Minigames.MineCart_Track))) ();
   };
   var $T10 = function () {
-    return ($T10 = JSIL.Memoize($asm06.System.Comparison$b1.Of($asm00.StardewValley.Minigames.MineCart_Track))) ();
+    return ($T10 = JSIL.Memoize($asm06.System.UInt32)) ();
   };
   var $T11 = function () {
-    return ($T11 = JSIL.Memoize($asm06.System.UInt32)) ();
+    return ($T11 = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_BaseTrackGenerator_$l$gc)) ();
   };
   var $T12 = function () {
-    return ($T12 = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_BaseTrackGenerator_$l$gc)) ();
+    return ($T12 = JSIL.Memoize($asm06.System.Collections.Generic.Dictionary$b2_KeyCollection_Enumerator.Of($asm06.System.Int32, $asm06.System.Collections.Generic.KeyValuePair$b2.Of($asm00.StardewValley.Minigames.MineCart_ObstacleTypes, $asm06.System.Single)))) ();
   };
   var $T13 = function () {
-    return ($T13 = JSIL.Memoize($asm06.System.Collections.Generic.Dictionary$b2_KeyCollection_Enumerator.Of($asm06.System.Int32, $asm06.System.Collections.Generic.KeyValuePair$b2.Of($asm00.StardewValley.Minigames.MineCart_ObstacleTypes, $asm06.System.Single)))) ();
+    return ($T13 = JSIL.Memoize($asm06.System.Collections.Generic.Dictionary$b2_KeyCollection.Of($asm06.System.Int32, $asm06.System.Collections.Generic.KeyValuePair$b2.Of($asm00.StardewValley.Minigames.MineCart_ObstacleTypes, $asm06.System.Single)))) ();
   };
   var $T14 = function () {
-    return ($T14 = JSIL.Memoize($asm06.System.Collections.Generic.Dictionary$b2_KeyCollection.Of($asm06.System.Int32, $asm06.System.Collections.Generic.KeyValuePair$b2.Of($asm00.StardewValley.Minigames.MineCart_ObstacleTypes, $asm06.System.Single)))) ();
+    return ($T14 = JSIL.Memoize($asm06.System.Random)) ();
   };
   var $T15 = function () {
-    return ($T15 = JSIL.Memoize($asm06.System.Random)) ();
-  };
-  var $T16 = function () {
-    return ($T16 = JSIL.Memoize($asm00.JunimoKart.Game1)) ();
+    return ($T15 = JSIL.Memoize($asm00.JunimoKart.Game1)) ();
   };
   var $S00 = function () {
     return ($S00 = JSIL.Memoize(new JSIL.ConstructorSignature($asm06.System.Collections.Generic.Dictionary$b2.Of($asm06.System.Int32, $asm06.System.Collections.Generic.KeyValuePair$b2.Of($asm00.StardewValley.Minigames.MineCart_ObstacleTypes, $asm06.System.Single)), null))) ();
   };
   var $S01 = function () {
-    return ($S01 = JSIL.Memoize(new JSIL.ConstructorSignature($asm01.Microsoft.Xna.Framework.Vector2, [$asm06.System.Single, $asm06.System.Single]))) ();
+    return ($S01 = JSIL.Memoize(new JSIL.ConstructorSignature($asm06.System.Collections.Generic.List$b1.Of($asm06.System.Func$b3.Of(
+            $asm00.StardewValley.Minigames.MineCart_Track, $asm00.StardewValley.Minigames.MineCart_BaseTrackGenerator, 
+            $asm06.System.Boolean
+        )), null))) ();
   };
   var $S02 = function () {
-    return ($S02 = JSIL.Memoize(new JSIL.ConstructorSignature($asm06.System.Collections.Generic.List$b1.Of($asm00.StardewValley.Minigames.MineCart_Track), null))) ();
+    return ($S02 = JSIL.Memoize(new JSIL.ConstructorSignature($asm01.Microsoft.Xna.Framework.Vector2, [$asm06.System.Single, $asm06.System.Single]))) ();
   };
   var $S03 = function () {
-    return ($S03 = JSIL.Memoize(new JSIL.MethodSignature($asm06.System.Int32, [$asm00.StardewValley.Minigames.MineCart_Track, $asm00.StardewValley.Minigames.MineCart_Track]))) ();
+    return ($S03 = JSIL.Memoize(new JSIL.ConstructorSignature($asm06.System.Collections.Generic.List$b1.Of($asm00.StardewValley.Minigames.MineCart_Track), null))) ();
   };
   var $S04 = function () {
-    return ($S04 = JSIL.Memoize(new JSIL.MethodSignature(null, [$asm06.TypeRef("System.Comparison`1", [$asm00.TypeRef("StardewValley.Minigames.MineCart+Track")])]))) ();
+    return ($S04 = JSIL.Memoize(new JSIL.MethodSignature($asm06.System.Int32, [$asm00.StardewValley.Minigames.MineCart_Track, $asm00.StardewValley.Minigames.MineCart_Track]))) ();
+  };
+  var $S05 = function () {
+    return ($S05 = JSIL.Memoize(new JSIL.MethodSignature(null, [$asm06.TypeRef("System.Comparison`1", [$asm00.TypeRef("StardewValley.Minigames.MineCart+Track")])]))) ();
   };
 
 
   function BaseTrackGenerator__ctor (game) {
     this._obstaclePlacementPosition = -10;
     this._obstacleIndices = $S00().Construct();
+    this._pickupFunction = $S01().Construct();
     this._game = game;
   }; 
 
@@ -7198,12 +7205,12 @@ JSIL.MakeEnum(
   }; 
 
   function BaseTrackGenerator_AddObstacle$b1 (T, obstacle_type, position, obstacle_chance) {
-    (this._obstacleIndices).Add(position, new ($T06())(obstacle_type, obstacle_chance));
+    (this._obstacleIndices).Add(position, new ($T07())(obstacle_type, obstacle_chance));
     return T.$As(this);
   }; 
 
   function BaseTrackGenerator_AddPickupFunction$b1 (T, pickup_spawn_function) {
-    this._pickupFunction = $T08().Combine(this._pickupFunction, pickup_spawn_function);
+    (this._pickupFunction).Add(pickup_spawn_function);
     return T.$As(this);
   }; 
 
@@ -7212,23 +7219,22 @@ JSIL.MakeEnum(
     if (this._pickupFunction === null) {
       var result = track;
     } else {
-      var invocationList = (this._pickupFunction).GetInvocationList();
 
-      for (var i = 0; i < (invocationList.length | 0); i = ((i + 1) | 0)) {
-        var flag2 = !invocationList[i](track, this);
+      for (var i = 0; i < ((this._pickupFunction).get_Count() | 0); i = ((i + 1) | 0)) {
+        var flag2 = !(this._pickupFunction).get_Item(i)(track, this);
         if (flag2) {
           result = track;
           return result;
         }
       }
-      var pickup = (this._game).CreatePickup($T0E().op_Addition(track.position.MemberwiseClone(), $S01().Construct(8, +(-+(this._game.tileSize)))).MemberwiseClone(), false);
+      var pickup = (this._game).CreatePickup($T0D().op_Addition(track.position.MemberwiseClone(), $S02().Construct(8, +(-+(this._game.tileSize)))).MemberwiseClone(), false);
       var flag3 = (pickup !== null) && 
       ((track.trackType === $T09().DownSlope) || 
         (track.trackType === $T09().UpSlope) || 
         (track.trackType === $T09().IceDownSlope) || 
         (track.trackType === $T09().SlimeUpSlope));
       if (flag3) {
-        pickup.position = $T0E().op_Addition(pickup.position.MemberwiseClone(), $S01().Construct(0, (+(-+(this._game.tileSize)) * 0.75))).MemberwiseClone();
+        pickup.position = $T0D().op_Addition(pickup.position.MemberwiseClone(), $S02().Construct(0, (+(-+(this._game.tileSize)) * 0.75))).MemberwiseClone();
       }
       result = track;
     }
@@ -7273,7 +7279,7 @@ JSIL.MakeEnum(
   }; 
 
   function BaseTrackGenerator_Initialize () {
-    this._generatedTracks = $S02().Construct();
+    this._generatedTracks = $S03().Construct();
   }; 
 
   function BaseTrackGenerator_PopulateObstacles () {
@@ -7282,22 +7288,22 @@ JSIL.MakeEnum(
     (((this._generatedTracks).get_Count() >>> 0) > (0 >>> 0));
     if (flag) {
       var arg_5C_0 = this._generatedTracks;
-      if ((arg_5C_1 = $T12().$l$g9__24_0) === null) {
-        arg_5C_1 = $T12().$l$g9__24_0 = $T10().New($T12().$l$g9, null, new JSIL.MethodPointerInfo($asm00.StardewValley.Minigames.MineCart_BaseTrackGenerator_$l$gc, "$lPopulateObstacles$gb__24_0", $S03(), false, false));
+      if ((arg_5C_1 = $T11().$l$g9__24_0) === null) {
+        arg_5C_1 = $T11().$l$g9__24_0 = $T0F().New($T11().$l$g9, null, new JSIL.MethodPointerInfo($asm00.StardewValley.Minigames.MineCart_BaseTrackGenerator_$l$gc, "$lPopulateObstacles$gb__24_0", $S04(), false, false));
       }
-      $S04().Call($T0F().prototype, "Sort", null, arg_5C_0, arg_5C_1);
+      $S05().Call($T0E().prototype, "Sort", null, arg_5C_0, arg_5C_1);
       var flag2 = (this._obstacleIndices !== null) && 
       (((this._obstacleIndices).get_Count() >>> 0) > (0 >>> 0));
       if (flag2) {
         var enumerator = ((this._obstacleIndices).get_Keys()).GetEnumerator();
 
-        while ($T13().prototype.MoveNext.call(enumerator)) {
-          var index = ($T13().prototype.get_Current.call(enumerator) | 0);
-          var flag3 = Math.fround($T16().random.NextDouble()) <= +((this._obstacleIndices).get_Item(index)).get_Value();
+        while ($T12().prototype.MoveNext.call(enumerator)) {
+          var index = ($T12().prototype.get_Current.call(enumerator) | 0);
+          var flag3 = Math.fround($T15().random.NextDouble()) <= +((this._obstacleIndices).get_Item(index)).get_Value();
           if (flag3) {
             switch (index) {
               case -13: 
-                var track_index2 = ($T16().random.Next((this._generatedTracks).get_Count()) | 0);
+                var track_index2 = ($T15().random.Next((this._generatedTracks).get_Count()) | 0);
                 break;
 
               case -12: 
@@ -7452,10 +7458,10 @@ JSIL.MakeEnum(
 
     $.Field({Static:false, Public:false}, "_obstacleIndices", $asm06.TypeRef("System.Collections.Generic.Dictionary`2", [$.Int32, $asm06.TypeRef("System.Collections.Generic.KeyValuePair`2", [$asm00.TypeRef("StardewValley.Minigames.MineCart+ObstacleTypes"), $.Single])]));
 
-    $.Field({Static:false, Public:false}, "_pickupFunction", $asm06.TypeRef("System.Func`3", [
-          $asm00.TypeRef("StardewValley.Minigames.MineCart+Track"), $.Type, 
-          $.Boolean
-        ]));
+    $.Field({Static:false, Public:false}, "_pickupFunction", $asm06.TypeRef("System.Collections.Generic.List`1", [$asm06.TypeRef("System.Func`3", [
+            $asm00.TypeRef("StardewValley.Minigames.MineCart+Track"), $.Type, 
+            $.Boolean
+          ])]));
 
 
     return function (newThisType) { $thisType = newThisType; }; 
