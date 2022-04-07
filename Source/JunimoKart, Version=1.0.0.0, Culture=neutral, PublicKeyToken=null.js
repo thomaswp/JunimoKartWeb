@@ -15682,22 +15682,25 @@ JSIL.DeclareNamespace("JunimoKart");
     return ($T10 = JSIL.Memoize($asm06.System.NotImplementedException)) ();
   };
   var $T11 = function () {
-    return ($T11 = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.SpriteBatch)) ();
+    return ($T11 = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.SpriteFont)) ();
   };
   var $T12 = function () {
-    return ($T12 = JSIL.Memoize(System.Array.Of($asm01.Microsoft.Xna.Framework.Color))) ();
+    return ($T12 = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.SpriteBatch)) ();
   };
   var $T13 = function () {
-    return ($T13 = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.SurfaceFormat)) ();
+    return ($T13 = JSIL.Memoize(System.Array.Of($asm01.Microsoft.Xna.Framework.Color))) ();
   };
   var $T14 = function () {
-    return ($T14 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.KeyboardState)) ();
+    return ($T14 = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.SurfaceFormat)) ();
   };
   var $T15 = function () {
-    return ($T15 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Keys)) ();
+    return ($T15 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.KeyboardState)) ();
   };
   var $T16 = function () {
-    return ($T16 = JSIL.Memoize($asm06.System.String)) ();
+    return ($T16 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Keys)) ();
+  };
+  var $T17 = function () {
+    return ($T17 = JSIL.Memoize($asm06.System.String)) ();
   };
   var $S00 = function () {
     return ($S00 = JSIL.Memoize(new JSIL.ConstructorSignature($asm06.System.Random, null))) ();
@@ -15761,12 +15764,13 @@ JSIL.DeclareNamespace("JunimoKart");
 
   function Game1_Initialize () {
     $T04().prototype.Initialize.call(this);
+    $thisType.dialogueFont = $thisType.content.Load$b1($T11())("SpriteFont1");
     $thisType.debrisSpriteSheet = $thisType.content.Load$b1($T0E())("debris");
     $thisType.mouseCursors = $thisType.content.Load$b1($T0E())("Cursors");
     $thisType.viewport = (this.get_GraphicsDevice()).get_Viewport().MemberwiseClone();
-    this.spriteBatch = new ($T11())((this.graphics).get_GraphicsDevice());
+    this.spriteBatch = new ($T12())((this.graphics).get_GraphicsDevice());
     var white3 = JSIL.Array.New($T0B(), 1);
-    $thisType.staminaRect = $S02().Construct(this.get_GraphicsDevice(), 1, 1, false, $T13().Color);
+    $thisType.staminaRect = $S02().Construct(this.get_GraphicsDevice(), 1, 1, false, $T14().Color);
 
     for (var i = 0; i < (white3.length | 0); i = ((i + 1) | 0)) {
       white3[i] = $S03().Construct(255, 255, 255, 255);

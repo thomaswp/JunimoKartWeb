@@ -1479,6 +1479,36 @@ JSIL.ImplementExternals("Microsoft.Xna.Framework.Graphics.SpriteBatch", function
     }
   );
 
+  /**
+   * Microsoft.Xna.Framework.Graphics.SpriteFont, 
+   * System.String, Microsoft.Xna.Framework.Vector2, 
+   * Microsoft.Xna.Framework.Color, 
+   * System.Single, 
+   * Microsoft.Xna.Framework.Vector2, 
+   * System.Single, 
+   * Microsoft.Xna.Framework.Graphics.SpriteEffects, 
+   * System.Single
+   */
+  $.Method({Static:false, Public:true }, "DrawString",
+    (new JSIL.MethodSignature(null, [
+          $jsilxna.graphicsRef("Microsoft.Xna.Framework.Graphics.SpriteFont"), $.String,
+          $xnaasms[0].TypeRef("Microsoft.Xna.Framework.Vector2"), $jsilxna.colorRef(),
+          $.Single, $xnaasms[0].TypeRef("Microsoft.Xna.Framework.Vector2"),
+          $.Single, $jsilxna.graphicsRef("Microsoft.Xna.Framework.Graphics.SpriteEffects"),
+          $.Single
+        ], [])),
+    function DrawString (spriteFont, text, position, color, rotation, origin, scale, effects, layerDepth) {
+      this.InternalDrawString(
+        spriteFont, text,
+        position.X, position.Y,
+        color, rotation,
+        origin.X, origin.Y,
+        scale, scale,
+        effects, layerDepth
+      );
+    }
+  );
+
   $.Method({Static:false, Public:true }, "DrawStringBuilder",
     (new JSIL.MethodSignature(null, [
           $jsilxna.graphicsRef("Microsoft.Xna.Framework.Graphics.SpriteFont"), $xnaasms[5].TypeRef("System.Text.StringBuilder"),

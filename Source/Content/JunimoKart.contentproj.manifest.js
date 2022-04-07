@@ -8,5 +8,5 @@ contentManifest["JunimoKartContent.contentproj"] = [
     ["Image", "MineCart.png", { "sizeBytes": 4286, }],
     ["Image", "debris.png", { "sizeBytes": 4286, }],
     ["Image", "Cursors.png", { "sizeBytes": 4286, }],
-    // ["SpriteFont", "SpriteFont1.xnb", { "sizeBytes": 4286, }],
+    ["SpriteFont", "SpriteFont1.xnb", { "sizeBytes": 4286, }],
 ];
