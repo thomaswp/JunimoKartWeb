@@ -941,10 +941,17 @@ JSIL.ImplementExternals("Microsoft.Xna.Framework.Graphics.SpriteBatch", function
   });
 
   $.RawMethod(false, "$applySamplerState", function () {
-    if ((typeof (this.samplerState) === "object") && (this.samplerState !== null))
+    if ((typeof (this.samplerState) === "object") && (this.samplerState !== null)) {
       this.device.SamplerStates.set_Item(0, this.samplerState);
-    else
+      // TODO: This is probably overly simplistic, but hopefully still works...
+      if (this.samplerState == Microsoft.Xna.Framework.Graphics.SamplerState.PointClamp) {
+        this.device.context.imageSmoothingEnabled = false;
+      } else {
+        this.device.context.imageSmoothingEnabled = true;
+      }
+    } else {
       this.device.SamplerStates.set_Item(0, Microsoft.Xna.Framework.Graphics.SamplerState.LinearClamp);
+    }
   });
 
   $.RawMethod(false, "$updateMatrices", function () {
@@ -3652,7 +3659,7 @@ JSIL.ImplementExternals("Microsoft.Xna.Framework.Graphics.SamplerState", functio
         "SamplerState.PointClamp"
       );
 
-      Microsoft.Xna.Framework.Graphics.SamplerState.PointClamp = new Microsoft.Xna.Framework.Graphics.SamplerState(
+      Microsoft.Xna.Framework.Graphics.SamplerState.PointWrap = new Microsoft.Xna.Framework.Graphics.SamplerState(
         Microsoft.Xna.Framework.Graphics.TextureFilter.Point,
         Microsoft.Xna.Framework.Graphics.TextureAddressMode.Wrap,
         "SamplerState.PointWrap"
