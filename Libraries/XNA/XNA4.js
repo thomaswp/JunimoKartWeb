@@ -634,6 +634,16 @@ JSIL.ImplementExternals("Microsoft.Xna.Framework.Vector2", function ($) {
     }
   );
 
+  $.Method({Static:true , Public:true }, "op_Multiply",
+    (new JSIL.MethodSignature($xnaasms[0].TypeRef("Microsoft.Xna.Framework.Vector2"), $.Single, [$xnaasms[0].TypeRef("Microsoft.Xna.Framework.Vector2")], [])),
+    function Mult (scalar, vector) {
+      var result = JSIL.CreateInstanceObject(Microsoft.Xna.Framework.Vector2.prototype);
+      result.X = (vector.X * scalar);
+      result.Y = (vector.Y * scalar);
+      return result;
+    }
+  );
+
   $.Method({Static:true , Public:true }, "op_Division",
     (new JSIL.MethodSignature($xnaasms[0].TypeRef("Microsoft.Xna.Framework.Vector2"), [$xnaasms[0].TypeRef("Microsoft.Xna.Framework.Vector2"), $.Single], [])),
     function Mult (vector, scalar) {

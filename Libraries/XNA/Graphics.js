@@ -732,6 +732,7 @@ JSIL.ImplementExternals("Microsoft.Xna.Framework.GraphicsDeviceManager", functio
     Public: true
   }, "set_PreferredBackBufferWidth", new JSIL.MethodSignature(null, [$.Int32], []), function (value) {
     this._width = value;
+    console.log('SET', value);
   });
 
   $.Method({
@@ -1281,7 +1282,7 @@ JSIL.ImplementExternals("Microsoft.Xna.Framework.Graphics.SpriteBatch", function
       sourceWidth = texture.get_Width();
       sourceHeight = texture.get_Height();
     }
-
+    
     this.InternalDraw(
       texture, position.X, position.Y, sourceWidth, sourceHeight,
       sourceX, sourceY, sourceWidth, sourceHeight,
@@ -1315,6 +1316,50 @@ JSIL.ImplementExternals("Microsoft.Xna.Framework.Graphics.SpriteBatch", function
           let scaleVec = new Microsoft.Xna.Framework.Vector2(scale, scale);
           Draw9.call(this, texture, position, sourceRectangle, color, rotation, origin, scaleVec, effects, layerDepth);
         },
+  );
+
+  /*
+  Microsoft.Xna.Framework.Graphics.Texture2D, 
+  Microsoft.Xna.Framework.Rectangle, 
+  System.Nullable`1[Microsoft.Xna.Framework.Rectangle], 
+  Microsoft.Xna.Framework.Color, 
+  System.Single, 
+  Microsoft.Xna.Framework.Vector2, 
+  Microsoft.Xna.Framework.Graphics.SpriteEffects, 
+  System.Single
+  */
+  $.Method({Static:false, Public:true }, "Draw",
+  (new JSIL.MethodSignature(null, [
+        $jsilxna.graphicsRef("Microsoft.Xna.Framework.Graphics.Texture2D"), 
+        $xnaasms[0].TypeRef("Microsoft.Xna.Framework.Rectangle"),
+        $xnaasms[5].TypeRef("System.Nullable`1", [$xnaasms[0].TypeRef("Microsoft.Xna.Framework.Rectangle")]), 
+        $jsilxna.colorRef(),
+        $.Single, 
+        $xnaasms[0].TypeRef("Microsoft.Xna.Framework.Vector2"),
+        $jsilxna.graphicsRef("Microsoft.Xna.Framework.Graphics.SpriteEffects"),
+        $.Single
+      ], [])), function(texture, destinationRectangle, sourceRectangle, color, rotation, origin, effects, layerDepth) {
+        var sourceX = 0, sourceY = 0, sourceWidth = 0, sourceHeight = 0;
+        if (sourceRectangle !== null) {
+          sourceX = sourceRectangle.X;
+          sourceY = sourceRectangle.Y;
+          sourceWidth = sourceRectangle.Width;
+          sourceHeight = sourceRectangle.Height;
+        } else {
+          sourceWidth = texture.get_Width();
+          sourceHeight = texture.get_Height();
+        }
+
+        this.InternalDraw(
+          texture, destinationRectangle.X, destinationRectangle.Y, 
+          destinationRectangle.Width, destinationRectangle.Height,
+          sourceX, sourceY, sourceWidth, sourceHeight,
+          color, rotation,
+          origin.X, origin.Y,
+          1, 1,
+          effects, layerDepth
+        );
+      },
   );
 
   $.Method({Static:false, Public:true }, "DrawRect",
@@ -1958,6 +2003,13 @@ JSIL.ImplementExternals("Microsoft.Xna.Framework.Graphics.GraphicsDevice", funct
     this.$UpdateBlendState();
     this.$UpdateViewport();
   });
+
+  $.Method({Static:false, Public:true }, "Clear",
+    (new JSIL.MethodSignature(null, [$jsilxna.colorRef()], [])),
+    function Clear (color) {
+      return this.InternalClear(color);
+    }
+  );
 
   $.Method({Static:false, Public:true }, "get_Viewport",
     (new JSIL.MethodSignature($jsilxna.graphicsRef("Microsoft.Xna.Framework.Graphics.Viewport"), [], [])),
