@@ -27,10 +27,13 @@
 
     <script type="text/javascript">
       function runMain () {
+        const urlParams = new URLSearchParams(document.location.search);
+        const mode = urlParams.get('mode') || 3;
+        const level = urlParams.get('level') || 0;
         // We can't invoke Main() since it disposes the Game immediately, breaking everything.
         var asm = JSIL.GetAssembly("JunimoKart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", true);
-        var game = new asm.JunimoKart.Program.Main();
-        // game.Run();
+        var game = new asm.JunimoKart.Game1(mode, level);
+        game.Run();
       };
     </script>
   </body>

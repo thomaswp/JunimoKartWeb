@@ -22,7 +22,7 @@ var $asm11 = JSIL.GetAssembly("System.Data.SqlXml, Version=4.0.0.0, Culture=neut
 
 if (typeof (contentManifest) !== "object") { JSIL.GlobalNamespace.contentManifest = {}; };
 contentManifest["JunimoKart.exe"] = [
-    ["Script", "JunimoKart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js", { "sizeBytes": 651154 }],
+    ["Script", "JunimoKart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js", { "sizeBytes": 652053 }],
     ["Script", "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js", { "sizeBytes": 9473847 }],
     ["Script", "Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 855452 }],
     ["Script", "Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 436053 }],

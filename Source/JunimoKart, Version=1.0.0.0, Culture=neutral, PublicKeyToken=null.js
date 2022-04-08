@@ -2499,28 +2499,31 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
     return ($T59 = JSIL.Memoize($asm06.System.Int64)) ();
   };
   var $T5A = function () {
-    return ($T5A = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_FallingBoulder)) ();
+    return ($T5A = JSIL.Memoize(System.Array.Of($asm06.System.String))) ();
   };
   var $T5B = function () {
-    return ($T5B = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_Whale_CurrentState)) ();
+    return ($T5B = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_FallingBoulder)) ();
   };
   var $T5C = function () {
-    return ($T5C = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_MushroomSpring)) ();
+    return ($T5C = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_Whale_CurrentState)) ();
   };
   var $T5D = function () {
-    return ($T5D = JSIL.Memoize($asm06.System.Collections.Generic.List$b1.Of($asm00.StardewValley.Minigames.MineCart_BalanceTrack))) ();
+    return ($T5D = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_MushroomSpring)) ();
   };
   var $T5E = function () {
-    return ($T5E = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_BalanceTrack)) ();
+    return ($T5E = JSIL.Memoize($asm06.System.Collections.Generic.List$b1.Of($asm00.StardewValley.Minigames.MineCart_BalanceTrack))) ();
   };
   var $T5F = function () {
-    return ($T5F = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_EndingJunimo)) ();
+    return ($T5F = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_BalanceTrack)) ();
   };
   var $T60 = function () {
-    return ($T60 = JSIL.Memoize($asm00.JunimoKart.AI)) ();
+    return ($T60 = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_EndingJunimo)) ();
   };
   var $T61 = function () {
-    return ($T61 = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_MapJunimo_MoveState)) ();
+    return ($T61 = JSIL.Memoize($asm00.JunimoKart.AI)) ();
+  };
+  var $T62 = function () {
+    return ($T62 = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart_MapJunimo_MoveState)) ();
   };
   var $S00 = function () {
     return ($S00 = JSIL.Memoize(new JSIL.ConstructorSignature($asm06.System.Collections.Generic.List$b1.Of($asm00.StardewValley.Minigames.MineCart_LakeDecor), null))) ();
@@ -2690,6 +2693,7 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
     this.bottomTile = (((((this.screenHeight | 0) / (this.tileSize | 0)) | 0) - 1) | 0);
     this.topTile = 4;
     this.currentTheme = (whichTheme | 0);
+    this.startTheme = (whichTheme | 0);
     this.ShowTitle();
   }; 
 
@@ -2783,11 +2787,11 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
     return ((this.generatorPosition.Y | 0) <= (((((this.topTile | 0) + (this.bottomTile | 0)) | 0) / 2) | 0));
   }; 
 
-  function MineCart_$linitLevelTransitions$gb__165_0 () {
+  function MineCart_$linitLevelTransitions$gb__166_0 () {
     return this.lastLevelWasPerfect;
   }; 
 
-  function MineCart_$linitLevelTransitions$gb__165_1 () {
+  function MineCart_$linitLevelTransitions$gb__166_1 () {
     return (+this.secondsOnThisLevel <= 60);
   }; 
 
@@ -2859,8 +2863,8 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
     }
     ((this._tracks).get_Item(x)).Add(track_object);
     var arg_83_0 = (this._tracks).get_Item(x);
-    if ((arg_83_1 = $T22().$l$g9__177_0) === null) {
-      arg_83_1 = $T22().$l$g9__177_0 = $T1F().New($T22().$l$g9, null, new JSIL.MethodPointerInfo($asm00.StardewValley.Minigames.MineCart_$l$gc, "$lAddTrack$gb__177_0", $S0D(), false, false));
+    if ((arg_83_1 = $T22().$l$g9__178_0) === null) {
+      arg_83_1 = $T22().$l$g9__178_0 = $T1F().New($T22().$l$g9, null, new JSIL.MethodPointerInfo($asm00.StardewValley.Minigames.MineCart_$l$gc, "$lAddTrack$gb__178_0", $S0D(), false, false));
     }
     $S0E().Call($T21().prototype, "Sort", null, arg_83_0, arg_83_1);
     return track;
@@ -3998,23 +4002,23 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
     var arg_93_5 = null, arg_D6_5 = null, arg_143_5 = null;
     var expr_09 = JSIL.Array.New($T40(), 15);
     expr_09[0] = new ($T40())(-1, 0, 2, 5, "rrr", null);
-    expr_09[1] = new ($T40())(0, 8, 5, 5, "rddrrd", $T12().New(this, null, new JSIL.MethodPointerInfo($thisType, "$linitLevelTransitions$gb__165_0", $S15(), false, false)));
+    expr_09[1] = new ($T40())(0, 8, 5, 5, "rddrrd", $T12().New(this, null, new JSIL.MethodPointerInfo($thisType, "$linitLevelTransitions$gb__166_0", $S15(), false, false)));
     expr_09[2] = new ($T40())(0, 1, 5, 5, "rddlddrdd", null);
-    expr_09[3] = new ($T40())(1, 3, 6, 11, "drdrrrrrrrrruuuuu", $T12().New(this, null, new JSIL.MethodPointerInfo($thisType, "$linitLevelTransitions$gb__165_1", $S16(), false, false)));
-    if ((arg_93_5 = $T22().$l$g9__165_2) === null) {
-      arg_93_5 = $T22().$l$g9__165_2 = $T12().New($T22().$l$g9, null, new JSIL.MethodPointerInfo($asm00.StardewValley.Minigames.MineCart_$l$gc, "$linitLevelTransitions$gb__165_2", $S17(), false, false));
+    expr_09[3] = new ($T40())(1, 3, 6, 11, "drdrrrrrrrrruuuuu", $T12().New(this, null, new JSIL.MethodPointerInfo($thisType, "$linitLevelTransitions$gb__166_1", $S16(), false, false)));
+    if ((arg_93_5 = $T22().$l$g9__166_2) === null) {
+      arg_93_5 = $T22().$l$g9__166_2 = $T12().New($T22().$l$g9, null, new JSIL.MethodPointerInfo($asm00.StardewValley.Minigames.MineCart_$l$gc, "$linitLevelTransitions$gb__166_2", $S17(), false, false));
     }
     expr_09[4] = new ($T40())(1, 5, 6, 11, "rrurruuu", arg_93_5);
     expr_09[5] = new ($T40())(1, 2, 6, 11, "rrurrrrddr", null);
-    if ((arg_D6_5 = $T22().$l$g9__165_3) === null) {
-      arg_D6_5 = $T22().$l$g9__165_3 = $T12().New($T22().$l$g9, null, new JSIL.MethodPointerInfo($asm00.StardewValley.Minigames.MineCart_$l$gc, "$linitLevelTransitions$gb__165_3", $S18(), false, false));
+    if ((arg_D6_5 = $T22().$l$g9__166_3) === null) {
+      arg_D6_5 = $T22().$l$g9__166_3 = $T12().New($T22().$l$g9, null, new JSIL.MethodPointerInfo($asm00.StardewValley.Minigames.MineCart_$l$gc, "$linitLevelTransitions$gb__166_3", $S18(), false, false));
     }
     expr_09[6] = new ($T40())(8, 5, 8, 8, "ddrruuu", arg_D6_5);
     expr_09[7] = new ($T40())(8, 2, 8, 8, "ddrrrrddr", null);
     expr_09[8] = new ($T40())(5, 3, 10, 7, "urruulluurrrrrddddddr", null);
     expr_09[9] = new ($T40())(2, 3, 13, 12, "rurruuu", null);
-    if ((arg_143_5 = $T22().$l$g9__165_4) === null) {
-      arg_143_5 = $T22().$l$g9__165_4 = $T12().New($T22().$l$g9, null, new JSIL.MethodPointerInfo($asm00.StardewValley.Minigames.MineCart_$l$gc, "$linitLevelTransitions$gb__165_4", $S19(), false, false));
+    if ((arg_143_5 = $T22().$l$g9__166_4) === null) {
+      arg_143_5 = $T22().$l$g9__166_4 = $T12().New($T22().$l$g9, null, new JSIL.MethodPointerInfo($asm00.StardewValley.Minigames.MineCart_$l$gc, "$linitLevelTransitions$gb__166_4", $S19(), false, false));
     }
     expr_09[10] = new ($T40())(3, 9, 16, 8, "rruuluu", arg_143_5);
     expr_09[11] = new ($T40())(3, 4, 16, 8, "rrddrddr", null);
@@ -4680,9 +4684,9 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
     this.RefreshHighScore();
     this.titleScreenJunimo = this.AddEntity$b1($T30())(new ($T30())(new ($T08())(259, 492, 14, 20), $S0A().Construct(+((((((this.screenWidth | 0) / 2) | 0) - 128) | 0) + 137), +((((((this.screenHeight | 0) / 2) | 0) - 35) | 0) + 46)), 100, 0, 0, 0, 99999, 1, 1, 1, 0.24, false, 0));
     if ((this.gameMode | 0) === 3) {
-      this.setUpTheme(-1);
+      this.setUpTheme((((this.startTheme | 0) - 1) | 0));
     } else {
-      this.setUpTheme(0);
+      this.setUpTheme(this.startTheme);
     }
   }; 
 
@@ -4827,7 +4831,7 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
         } else {
           this.levelsBeat = 0;
           this.coinCount = 0;
-          this.setUpTheme(0);
+          this.setUpTheme(this.startTheme);
           this.restartLevel(true);
         }
         result = false;
@@ -5055,7 +5059,8 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
         if (flag3) {
           (this.minecartLoop).Pause();
         }
-        this.cutsceneText = "cutscene";
+        var levels = JSIL.Array.New($T3A(), ["Crumble Cavern", "Slippery Slopes", "Red Hot Rollercoaster", "The Gem Sea Giant", "Ghastly Galleon", "Slomp's Stomp", "Sunset Speedway", "???", "Glowshroom Grotto"]);
+        this.cutsceneText = levels[this.currentTheme];
         if ((this.currentTheme | 0) === 7) {
           this.cutsceneText = "";
         }
@@ -5082,13 +5087,13 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
           (this.player).ReleaseJump();
         }
         if ((this.cutsceneTick | 0) === 130) {
-          this.AddEntity$b1($T5A())(new ($T5A())()).position = $S0A().Construct((+this.player.position.X + 100), -16);
+          this.AddEntity$b1($T5B())(new ($T5B())()).position = $S0A().Construct((+this.player.position.X + 100), -16);
         }
         if ((this.cutsceneTick | 0) === 160) {
-          this.AddEntity$b1($T5A())(new ($T5A())()).position = $S0A().Construct((+this.player.position.X + 100), -16);
+          this.AddEntity$b1($T5B())(new ($T5B())()).position = $S0A().Construct((+this.player.position.X + 100), -16);
         }
         if ((this.cutsceneTick | 0) === 190) {
-          this.AddEntity$b1($T5A())(new ($T5A())()).position = $S0A().Construct((+this.player.position.X + 100), -16);
+          this.AddEntity$b1($T5B())(new ($T5B())()).position = $S0A().Construct((+this.player.position.X + 100), -16);
         }
         if ((this.cutsceneTick | 0) === 270) {
           (this.player).Jump();
@@ -5195,7 +5200,7 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
             var flag32 = $T3B().$Is(entity3);
             if (flag32) {
               $T03().playSound("croak");
-              ($T3B().$As(entity3)).SetState($T5B().OpenMouth, 1);
+              ($T3B().$As(entity3)).SetState($T5C().OpenMouth, 1);
               break $loop0;
             }
           }
@@ -5289,7 +5294,7 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
           this.AddTrack(2, 6, $T16().Straight);
           this.AddTrack(3, 6, $T16().Straight);
           var spring_track = this.AddTrack(4, 6, $T16().Straight);
-          var mushroomSpring = this.AddEntity$b1($T5C())(new ($T5C())());
+          var mushroomSpring = this.AddEntity$b1($T5D())(new ($T5D())());
           mushroomSpring.InitializeObstacle(spring_track);
           mushroomSpring.position = $S09().CallStatic($T01(), "op_Multiply", null, $S0A().Construct(4.5, 6), +(this.tileSize)).MemberwiseClone();
           this.AddTrack(8, 6, $T16().MushroomLeft);
@@ -5300,33 +5305,33 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
           var noxiousMushroom = this.AddEntity$b1($T52())(new ($T52())());
           noxiousMushroom.position = $S09().CallStatic($T01(), "op_Multiply", null, $S0A().Construct(12.5, 10), +(this.tileSize)).MemberwiseClone();
           noxiousMushroom.nextFire = 3;
-          var track_piece6 = new ($T5E())($T16().MushroomLeft, false);
+          var track_piece6 = new ($T5F())($T16().MushroomLeft, false);
           track_piece6.position.X = +(15 * (this.tileSize | 0));
           track_piece6.position.Y = +(9 * (this.tileSize | 0));
           track_parts.Add(track_piece6);
           this.AddTrack(track_piece6);
-          track_piece6 = new ($T5E())($T16().MushroomMiddle, false);
+          track_piece6 = new ($T5F())($T16().MushroomMiddle, false);
           track_piece6.position.X = +(16 * (this.tileSize | 0));
           track_piece6.position.Y = +(9 * (this.tileSize | 0));
           track_parts.Add(track_piece6);
           this.AddTrack(track_piece6);
-          track_piece6 = new ($T5E())($T16().MushroomRight, false);
+          track_piece6 = new ($T5F())($T16().MushroomRight, false);
           track_piece6.position.X = +(17 * (this.tileSize | 0));
           track_piece6.position.Y = +(9 * (this.tileSize | 0));
           track_parts.Add(track_piece6);
           this.AddTrack(track_piece6);
           var other_track_parts = $S23().Construct();
-          track_piece6 = new ($T5E())($T16().MushroomLeft, false);
+          track_piece6 = new ($T5F())($T16().MushroomLeft, false);
           track_piece6.position.X = +(22 * (this.tileSize | 0));
           track_piece6.position.Y = +(9 * (this.tileSize | 0));
           other_track_parts.Add(track_piece6);
           this.AddTrack(track_piece6);
-          track_piece6 = new ($T5E())($T16().MushroomMiddle, false);
+          track_piece6 = new ($T5F())($T16().MushroomMiddle, false);
           track_piece6.position.X = +(23 * (this.tileSize | 0));
           track_piece6.position.Y = +(9 * (this.tileSize | 0));
           other_track_parts.Add(track_piece6);
           this.AddTrack(track_piece6);
-          track_piece6 = new ($T5E())($T16().MushroomRight, false);
+          track_piece6 = new ($T5F())($T16().MushroomRight, false);
           track_piece6.position.X = +(24 * (this.tileSize | 0));
           track_piece6.position.Y = +(9 * (this.tileSize | 0));
           other_track_parts.Add(track_piece6);
@@ -5426,7 +5431,7 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
         if (!(((this.cutsceneTick | 0) < 350) || 
             ((((this.cutsceneTick | 0) % 10) | 0) !== 0)) && ((this.cutsceneTick | 0) < 600)) {
           $T03().playSound("junimoMeep1");
-          this.AddEntity$b1($T5F())(new ($T5F())(this.completelyPerfect)).position = $S0A().Construct(+(20 * (this.tileSize | 0)), +(10 * (this.tileSize | 0)));
+          this.AddEntity$b1($T60())(new ($T60())(this.completelyPerfect)).position = $S0A().Construct(+(20 * (this.tileSize | 0)), +(10 * (this.tileSize | 0)));
         }
       }
       var flag67 = (this.cutsceneTick | 0) === fade_out_time;
@@ -5582,15 +5587,15 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
       }
     }
     var flag2 = (+this.mapTimer >= 2) && 
-    (map_junimo.moveState === $T61().Idle);
+    (map_junimo.moveState === $T62().Idle);
     if (flag2) {
       map_junimo.StartMoving();
     }
-    var flag3 = map_junimo.moveState === $T61().Moving;
+    var flag3 = map_junimo.moveState === $T62().Moving;
     if (flag3) {
       this.mapTimer = 0;
     }
-    var flag4 = (map_junimo.moveState === $T61().Finished) && 
+    var flag4 = (map_junimo.moveState === $T62().Finished) && 
     (+this.mapTimer >= 1.5);
     if (flag4) {
       this.fadeDelta = 1;
@@ -5633,15 +5638,15 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
       MineCart__IsGeneratingOnUpperHalf
     );
 
-    $.Method({Static:false, Public:false}, "$linitLevelTransitions$gb__165_0", 
+    $.Method({Static:false, Public:false}, "$linitLevelTransitions$gb__166_0", 
       JSIL.MethodSignature.Return($.Boolean), 
-      MineCart_$linitLevelTransitions$gb__165_0
+      MineCart_$linitLevelTransitions$gb__166_0
     )
       .Attribute($asm06.TypeRef("System.Runtime.CompilerServices.CompilerGeneratedAttribute"));
 
-    $.Method({Static:false, Public:false}, "$linitLevelTransitions$gb__165_1", 
+    $.Method({Static:false, Public:false}, "$linitLevelTransitions$gb__166_1", 
       JSIL.MethodSignature.Return($.Boolean), 
-      MineCart_$linitLevelTransitions$gb__165_1
+      MineCart_$linitLevelTransitions$gb__166_1
     )
       .Attribute($asm06.TypeRef("System.Runtime.CompilerServices.CompilerGeneratedAttribute"));
 
@@ -6085,6 +6090,8 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
     $.Field({Static:false, Public:false}, "respawnCounter", $.Int32);
 
     $.Field({Static:false, Public:false}, "currentTheme", $.Int32);
+
+    $.Field({Static:false, Public:false}, "startTheme", $.Int32);
 
     $.Field({Static:false, Public:false}, "reachedFinish", $.Boolean);
 
@@ -14849,19 +14856,19 @@ JSIL.MakeEnum(
   function $l$gc__ctor () {
   }; 
 
-  function $l$gc_$lAddTrack$gb__177_0 (o1, o2) {
+  function $l$gc_$lAddTrack$gb__178_0 (o1, o2) {
     return $S00().CallStatic($T01(), "Sign", null, +o1.position.Y - +o2.position.Y);
   }; 
 
-  function $l$gc_$linitLevelTransitions$gb__165_2 () {
+  function $l$gc_$linitLevelTransitions$gb__166_2 () {
     return (+$T03().random.NextDouble() <= 0.5);
   }; 
 
-  function $l$gc_$linitLevelTransitions$gb__165_3 () {
+  function $l$gc_$linitLevelTransitions$gb__166_3 () {
     return (+$T03().random.NextDouble() <= 0.5);
   }; 
 
-  function $l$gc_$linitLevelTransitions$gb__165_4 () {
+  function $l$gc_$linitLevelTransitions$gb__166_4 () {
     return (+$T03().random.NextDouble() <= 0.5);
   }; 
 
@@ -14879,35 +14886,35 @@ JSIL.MakeEnum(
       $l$gc__ctor
     );
 
-    $.Method({Static:false, Public:false}, "$lAddTrack$gb__177_0", 
+    $.Method({Static:false, Public:false}, "$lAddTrack$gb__178_0", 
       new JSIL.MethodSignature($.Int32, [$asm00.TypeRef("StardewValley.Minigames.MineCart+Track"), $asm00.TypeRef("StardewValley.Minigames.MineCart+Track")]), 
-      $l$gc_$lAddTrack$gb__177_0
+      $l$gc_$lAddTrack$gb__178_0
     );
 
-    $.Method({Static:false, Public:false}, "$linitLevelTransitions$gb__165_2", 
+    $.Method({Static:false, Public:false}, "$linitLevelTransitions$gb__166_2", 
       JSIL.MethodSignature.Return($.Boolean), 
-      $l$gc_$linitLevelTransitions$gb__165_2
+      $l$gc_$linitLevelTransitions$gb__166_2
     );
 
-    $.Method({Static:false, Public:false}, "$linitLevelTransitions$gb__165_3", 
+    $.Method({Static:false, Public:false}, "$linitLevelTransitions$gb__166_3", 
       JSIL.MethodSignature.Return($.Boolean), 
-      $l$gc_$linitLevelTransitions$gb__165_3
+      $l$gc_$linitLevelTransitions$gb__166_3
     );
 
-    $.Method({Static:false, Public:false}, "$linitLevelTransitions$gb__165_4", 
+    $.Method({Static:false, Public:false}, "$linitLevelTransitions$gb__166_4", 
       JSIL.MethodSignature.Return($.Boolean), 
-      $l$gc_$linitLevelTransitions$gb__165_4
+      $l$gc_$linitLevelTransitions$gb__166_4
     );
 
     $.Field({Static:true , Public:true , ReadOnly:true }, "$l$g9", $.Type);
 
-    $.Field({Static:true , Public:true }, "$l$g9__165_2", $asm06.TypeRef("System.Func`1", [$.Boolean]));
+    $.Field({Static:true , Public:true }, "$l$g9__166_2", $asm06.TypeRef("System.Func`1", [$.Boolean]));
 
-    $.Field({Static:true , Public:true }, "$l$g9__165_3", $asm06.TypeRef("System.Func`1", [$.Boolean]));
+    $.Field({Static:true , Public:true }, "$l$g9__166_3", $asm06.TypeRef("System.Func`1", [$.Boolean]));
 
-    $.Field({Static:true , Public:true }, "$l$g9__165_4", $asm06.TypeRef("System.Func`1", [$.Boolean]));
+    $.Field({Static:true , Public:true }, "$l$g9__166_4", $asm06.TypeRef("System.Func`1", [$.Boolean]));
 
-    $.Field({Static:true , Public:true }, "$l$g9__177_0", $asm06.TypeRef("System.Comparison`1", [$asm00.TypeRef("StardewValley.Minigames.MineCart+Track")]));
+    $.Field({Static:true , Public:true }, "$l$g9__178_0", $asm06.TypeRef("System.Comparison`1", [$asm00.TypeRef("StardewValley.Minigames.MineCart+Track")]));
 
 
     function $l$gc__cctor () {
@@ -15643,40 +15650,40 @@ JSIL.DeclareNamespace("JunimoKart");
     return ($T03 = JSIL.Memoize($asm00.JunimoKart.PlayerAI)) ();
   };
   var $T04 = function () {
-    return ($T04 = JSIL.Memoize($asm02.Microsoft.Xna.Framework.Game)) ();
+    return ($T04 = JSIL.Memoize($asm06.System.Int32)) ();
   };
   var $T05 = function () {
-    return ($T05 = JSIL.Memoize($asm02.Microsoft.Xna.Framework.GraphicsDeviceManager)) ();
+    return ($T05 = JSIL.Memoize($asm02.Microsoft.Xna.Framework.Game)) ();
   };
   var $T06 = function () {
-    return ($T06 = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.GraphicsProfile)) ();
+    return ($T06 = JSIL.Memoize($asm02.Microsoft.Xna.Framework.GraphicsDeviceManager)) ();
   };
   var $T07 = function () {
-    return ($T07 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Content.ContentManager)) ();
+    return ($T07 = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.GraphicsProfile)) ();
   };
   var $T08 = function () {
-    return ($T08 = JSIL.Memoize($asm00.StardewValley.InputState)) ();
+    return ($T08 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Content.ContentManager)) ();
   };
   var $T09 = function () {
-    return ($T09 = JSIL.Memoize($asm02.Microsoft.Xna.Framework.GameTime)) ();
+    return ($T09 = JSIL.Memoize($asm00.StardewValley.InputState)) ();
   };
   var $T0A = function () {
-    return ($T0A = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.GraphicsDevice)) ();
+    return ($T0A = JSIL.Memoize($asm02.Microsoft.Xna.Framework.GameTime)) ();
   };
   var $T0B = function () {
-    return ($T0B = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Color)) ();
+    return ($T0B = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.GraphicsDevice)) ();
   };
   var $T0C = function () {
-    return ($T0C = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart)) ();
+    return ($T0C = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Color)) ();
   };
   var $T0D = function () {
-    return ($T0D = JSIL.Memoize($asm06.System.TimeSpan)) ();
+    return ($T0D = JSIL.Memoize($asm00.StardewValley.Minigames.MineCart)) ();
   };
   var $T0E = function () {
-    return ($T0E = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.Texture2D)) ();
+    return ($T0E = JSIL.Memoize($asm06.System.TimeSpan)) ();
   };
   var $T0F = function () {
-    return ($T0F = JSIL.Memoize($asm06.System.Int32)) ();
+    return ($T0F = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.Texture2D)) ();
   };
   var $T10 = function () {
     return ($T10 = JSIL.Memoize($asm06.System.NotImplementedException)) ();
@@ -15726,22 +15733,24 @@ JSIL.DeclareNamespace("JunimoKart");
   };
 
 
-  function Game1__ctor () {
-    $T04().prototype._ctor.call(this);
-    this.graphics = new ($T05())(this);
+  function Game1__ctor (mode, theme) {
+    $T05().prototype._ctor.call(this);
+    this.mode = (mode | 0);
+    this.theme = (theme | 0);
+    this.graphics = new ($T06())(this);
     (this.graphics).set_PreferredBackBufferWidth(1200);
     (this.graphics).set_PreferredBackBufferHeight(660);
-    (this.graphics).set_GraphicsProfile($T06().HiDef);
+    (this.graphics).set_GraphicsProfile($T07().HiDef);
     $thisType.content = this.get_Content();
     (this.get_Content()).set_RootDirectory("Content");
     $thisType.game1 = this;
-    $thisType.input = new ($T08())();
+    $thisType.input = new ($T09())();
   }; 
 
   function Game1_Draw (gameTime) {
-    $T04().prototype.Draw.call(this, gameTime);
+    $T05().prototype.Draw.call(this, gameTime);
     $thisType.currentGameTime = gameTime;
-    (this.get_GraphicsDevice()).Clear($T0B().get_CornflowerBlue().MemberwiseClone());
+    (this.get_GraphicsDevice()).Clear($T0C().get_Black().MemberwiseClone());
     $thisType.currentGameTime = gameTime;
     (this.cartGame).draw(this.spriteBatch);
   }; 
@@ -15763,13 +15772,13 @@ JSIL.DeclareNamespace("JunimoKart");
   }; 
 
   function Game1_Initialize () {
-    $T04().prototype.Initialize.call(this);
+    $T05().prototype.Initialize.call(this);
     $thisType.dialogueFont = $thisType.content.Load$b1($T11())("SpriteFont1");
-    $thisType.debrisSpriteSheet = $thisType.content.Load$b1($T0E())("debris");
-    $thisType.mouseCursors = $thisType.content.Load$b1($T0E())("Cursors");
+    $thisType.debrisSpriteSheet = $thisType.content.Load$b1($T0F())("debris");
+    $thisType.mouseCursors = $thisType.content.Load$b1($T0F())("Cursors");
     $thisType.viewport = (this.get_GraphicsDevice()).get_Viewport().MemberwiseClone();
     this.spriteBatch = new ($T12())((this.graphics).get_GraphicsDevice());
-    var white3 = JSIL.Array.New($T0B(), 1);
+    var white3 = JSIL.Array.New($T0C(), 1);
     $thisType.staminaRect = $S02().Construct(this.get_GraphicsDevice(), 1, 1, false, $T14().Color);
 
     for (var i = 0; i < (white3.length | 0); i = ((i + 1) | 0)) {
@@ -15777,7 +15786,7 @@ JSIL.DeclareNamespace("JunimoKart");
     }
     $S04().CallVirtual("SetData$b1", [$asm01.Microsoft.Xna.Framework.Color], $thisType.staminaRect, white3);
     if (this.cartGame === null) {
-      this.cartGame = new ($T0C())(0, 2);
+      this.cartGame = new ($T0D())(this.theme, this.mode);
     }
   }; 
 
@@ -15792,7 +15801,7 @@ JSIL.DeclareNamespace("JunimoKart");
   }; 
 
   function Game1_Update (gameTime) {
-    $T04().prototype.Update.call(this, gameTime);
+    $T05().prototype.Update.call(this, gameTime);
     $thisType.currentGameTime = gameTime;
 
     for (var i = 0; i < 1; i = ((i + 1) | 0)) {
@@ -15806,12 +15815,12 @@ JSIL.DeclareNamespace("JunimoKart");
       Name: "JunimoKart.Game1", 
       IsPublic: false, 
       IsReferenceType: true, 
-      MaximumConstructorArguments: 0, 
+      MaximumConstructorArguments: 2, 
     }, function ($ib) {
     $ = $ib;
 
     $.Method({Static:false, Public:true }, ".ctor", 
-      JSIL.MethodSignature.Void, 
+      new JSIL.MethodSignature(null, [$.Int32, $.Int32]), 
       Game1__ctor
     );
 
@@ -15887,12 +15896,6 @@ JSIL.DeclareNamespace("JunimoKart");
 
     $.Field({Static:true , Public:false}, "input", $asm00.TypeRef("StardewValley.InputState"));
 
-    $.Field({Static:false, Public:false}, "graphics", $asm02.TypeRef("Microsoft.Xna.Framework.GraphicsDeviceManager"));
-
-    $.Field({Static:false, Public:false}, "spriteBatch", $asm04.TypeRef("Microsoft.Xna.Framework.Graphics.SpriteBatch"));
-
-    $.Field({Static:false, Public:false}, "cartGame", $asm00.TypeRef("StardewValley.Minigames.MineCart"));
-
     $.Field({Static:true , Public:false}, "playerOneIndex", $asm01.TypeRef("Microsoft.Xna.Framework.PlayerIndex"), function ($pi) {
         return $asm01.Microsoft.Xna.Framework.PlayerIndex.One;
       });
@@ -15902,6 +15905,20 @@ JSIL.DeclareNamespace("JunimoKart");
     $.Field({Static:true , Public:false}, "currentMinigame", $.Object);
 
     $.Field({Static:true , Public:false}, "isUsingBackToFrontSorting", $.Boolean);
+
+    $.Field({Static:false, Public:false}, "graphics", $asm02.TypeRef("Microsoft.Xna.Framework.GraphicsDeviceManager"));
+
+    $.Field({Static:false, Public:false}, "spriteBatch", $asm04.TypeRef("Microsoft.Xna.Framework.Graphics.SpriteBatch"));
+
+    $.Field({Static:false, Public:false}, "cartGame", $asm00.TypeRef("StardewValley.Minigames.MineCart"));
+
+    $.Field({Static:false, Public:false}, "mode", $.Int32);
+
+    $.Field({Static:false, Public:false}, "theme", $.Int32);
+
+    $.Constant({Static:true , Public:true }, "MODE_ENDLESS", $.Int32, 2);
+
+    $.Constant({Static:true , Public:true }, "MODE_PROGRESS", $.Int32, 3);
 
     $.Constant({Static:true , Public:false}, "SPEED", $.Int32, 1);
 
@@ -16011,7 +16028,7 @@ JSIL.DeclareNamespace("JunimoKart");
 
 
   function Program_Main () {
-    var game = new ($T00())();
+    var game = new ($T00())(3, 1);
     game.Run();
   }; 
 
