@@ -732,7 +732,6 @@ JSIL.ImplementExternals("Microsoft.Xna.Framework.GraphicsDeviceManager", functio
     Public: true
   }, "set_PreferredBackBufferWidth", new JSIL.MethodSignature(null, [$.Int32], []), function (value) {
     this._width = value;
-    console.log('SET', value);
   });
 
   $.Method({

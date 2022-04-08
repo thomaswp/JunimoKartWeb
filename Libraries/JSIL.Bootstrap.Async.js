@@ -7,6 +7,52 @@ if (typeof (JSIL) === "undefined")
 JSIL.DeclareNamespace("System.Runtime.CompilerServices");
 JSIL.DeclareNamespace("System.Threading");
 JSIL.DeclareNamespace("System.Threading.Tasks");
+JSIL.DeclareNamespace("System.Configuration");
+
+
+JSIL.ImplementExternals("System.Configuration.SettingsBase", function($) {
+  $.Method({ Static: false, Public: false }, ".ctor",
+    (new JSIL.MethodSignature(null, [], [])),
+    function _ctor() {
+    }
+  );
+
+  $.Method({ Static: true, Public: true }, "Synchronized",
+    (new JSIL.MethodSignature(
+      $jsilcore.TypeRef("System.Configuration.SettingsBase"), 
+      [$jsilcore.TypeRef("System.Configuration.SettingsBase")], [])),
+    function(settings) {
+      return settings;
+    }
+  );
+});
+
+JSIL.ImplementExternals("System.Configuration.ApplicationSettingsBase", function($) {
+  $.Method({ Static: false, Public: false }, ".ctor",
+    (new JSIL.MethodSignature(null, [], [])),
+    function _ctor() {
+    }
+  );
+
+  $.Method({ Static: false, Public: true }, "get_Item",
+    (new JSIL.MethodSignature($jsilcore.TypeRef("System.Object"), [$jsilcore.TypeRef("System.String")], [])),
+    function get_Item(key) {
+      // console.log('getting', key);
+      if (!localStorage) return null;
+      return localStorage.getItem(key);
+    }
+  );
+
+  $.Method({ Static: false, Public: true }, "set_Item",
+    (new JSIL.MethodSignature(null, [$jsilcore.TypeRef("System.String"), $jsilcore.TypeRef("System.Object")], [])),
+    function set_Item(key, item) {
+      console.log('setting', key, item);
+      // if (!localStorage) return;
+      if (typeof(item) !== 'string') return;
+      return localStorage.setItem(key, item);
+    }
+  );
+});
 
 JSIL.ImplementExternals("System.Runtime.CompilerServices.AsyncVoidMethodBuilder", function ($) {
   $.Method({ Static: false, Public: false }, ".ctor",
