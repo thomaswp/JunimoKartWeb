@@ -3,7 +3,18 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   </head>
-  <body onload="onLoad()">
+  <style>
+    body {
+      background-color: #121212;
+      color: #ddd;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: small;
+    }
+    a {
+      color: #809fff;
+    }
+  </style>
+  <body onload="onLoad()" width="100%">
     <script type="text/javascript" src="../Libraries/XNA/LZX.js"></script>
     <script type="text/javascript">
       var jsilConfig = {
@@ -17,13 +28,63 @@
         //   "Content/YOUR APPLICATION NAME.contentproj"
         ],
       };
+      function toggleInfo() {
+        const x = document.getElementById('info');
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
     </script>
     <script src="../Libraries/JSIL.js" type="text/javascript"></script>
     
-    <canvas id="canvas" width="1200" height="660">
-    </canvas><br>
-
-    <div id="log"></div>
+    <div style="margin-left: auto; margin-right:auto; width:1200px; padding:0; height:calc(100%-680px); overflow-y:auto">
+      <canvas id="canvas" width="1200" height="660">
+      </canvas>
+      <br/>
+      <button style="float:right" onclick="toggleInfo()">Hide/Show Info</button>
+      <div id="info" style="width: 1100px; margin-left: auto; margin-right:auto;">
+        <p><b>Instructions</b>: Jump with Left Click/Space/Enter. That's it!</p>
+        <p>
+          <b>About:</b> Welcome to JunimoKart (Web), a fan-made implementation of the mini-game from <a href="https://www.stardewvalley.net/">Stardew Valley</a>!
+          If you enjoy this game, you'll absolutely love <a href="https://www.stardewvalley.net/">Stardew Valley</a>, so go buy it!
+          You can select a different game mode or a specific level to practice <a href="../">here</a>.
+        </p>
+        <p>
+          <form method="GET" action="index.html" style="display:inline">
+            <b>Select Mode/Level</b>: 
+            Mode:
+            <select name="mode">
+                <option value="3">Progress</option>
+                <option value="2">Endless</option>
+            </select>
+            Start Level:
+            <select name="level">
+                <option value="0">Crumble Cavern</option>
+                <option value="1">Slippery Slopes</option>
+                <option value="8">???</option>
+                <option value="2">The Gem Sea Giant</option>
+                <option value="3">Ghastly Galleon</option>
+                <option value="4">Red Hot Rollercoaster</option>
+                <option value="5">Slomp's Stomp</option>
+                <option value="6">Sunset Speedway</option>
+                <option value="9">Glowshroom Grotto</option>
+                <option value="7">Win Screen</option>
+            </select>
+            <input type="submit">
+          </form>
+        </p>
+        <p><b>Ownership</b>: All assets ceremoniously lifted from Stardew Valley by Concerned Ape.</p>
+        <p>
+          <b>Report Bugs</b>: Open an issue on <a href="https://github.com/thomaswp/JunimoKartWeb/issues">this page</a>.
+          Make sure to copy the text in the Log below, as well as any errors in your browser's 
+          <a href="https://balsamiq.com/support/faqs/browserconsole/">javascript console</a>.
+        </p>
+        <b>Log</b>:<br/>
+        <div id="log"></div>
+      </div>
+    </div>
 
     <script type="text/javascript">
       function runMain () {
